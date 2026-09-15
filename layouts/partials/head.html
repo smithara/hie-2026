@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1026" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fdfbf7" media="(prefers-color-scheme: light)">
+
+{{- $title := "" -}}
+{{- if .IsHome -}}
+  {{- $title = .Site.Title -}}
+{{- else -}}
+  {{- $title = printf "%s · %s" .Title .Site.Params.shortTitle -}}
+{{- end -}}
+<title>{{ $title }}</title>
+
+{{- $desc := .Site.Params.aim -}}
+{{- with .Description }}{{ $desc = . }}{{ end -}}
+<meta name="description" content="{{ $desc }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Params.shortTitle }}">
+<meta name="twitter:card" content="summary">
+
+{{- $css := resources.Get "css/main.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

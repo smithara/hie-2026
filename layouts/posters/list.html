@@ -1,0 +1,79 @@
+{{ define "main" }}
+{{- $posters := hugo.Data.posters -}}
+
+<section class="page-head">
+  <div class="wrap">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="wrap">
+    {{ if $posters }}
+      {{ if .Site.Params.demoMode }}
+      <p class="placeholder-note">🧪 The posters below are <strong>placeholders</strong> for
+      demonstration purposes only — real submissions aren't in yet. This shows how search,
+      filtering and thumbnails will work once actual posters are added.</p>
+      {{ end }}
+      {{- $topics := slice -}}
+      {{- range $posters }}{{ $topics = $topics | append .topic }}{{ end -}}
+      {{- $topics = $topics | uniq | sort -}}
+
+      <div class="gallery-controls" data-count="{{ len $posters }}">
+        <label class="control-search">
+          <span class="visually-hidden">Search posters</span>
+          <input type="search" id="poster-search" placeholder="Search title or author…" autocomplete="off">
+        </label>
+        <label class="control-filter">
+          <span class="visually-hidden">Filter by topic</span>
+          <select id="poster-topic">
+            <option value="">All topics</option>
+            {{ range $topics }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+          </select>
+        </label>
+        <p class="gallery-count" id="gallery-count" aria-live="polite">{{ len $posters }} posters</p>
+      </div>
+
+      <ul class="poster-grid" id="poster-grid">
+        {{ range $posters }}
+        <li class="poster-card"
+            data-search="{{ lower (printf "%s %s" .title .authors) }}"
+            data-topic="{{ .topic }}">
+          <a class="poster-link" href="{{ (printf "/posters/pdf/%s" .file) | relURL }}" target="_blank" rel="noopener">
+            <span class="poster-thumb-wrap">
+              <img class="poster-thumb" loading="lazy" decoding="async"
+                   src="{{ (printf "/posters/thumbs/%s" .thumb) | relURL }}"
+                   alt="First page of poster: {{ .title }}">
+            </span>
+            <span class="poster-meta">
+              <span class="poster-badges">
+                {{ with .poster }}<span class="poster-num">Poster {{ . }}</span>{{ end }}
+                <span class="poster-topic">{{ .topic }}</span>
+              </span>
+              <span class="poster-title">{{ .title }}</span>
+              {{ with .authors }}<span class="poster-authors">{{ . }}</span>{{ end }}
+            </span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      <p class="no-results" id="no-results" hidden>No posters match your search.</p>
+    {{ else }}
+      <div class="empty-state">
+        <p class="empty-mark" aria-hidden="true">🗂️</p>
+        <h2>Posters coming soon</h2>
+        <p>The poster gallery will be published closer to the event. Check back nearer
+        to {{ .Site.Params.dates }}.</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+  {{- if hugo.Data.posters -}}
+    {{- $js := resources.Get "js/gallery.js" | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{- end -}}
+{{ end }}

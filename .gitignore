@@ -1,0 +1,17 @@
+# Hugo build output & caches
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Netlify
+.netlify/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/
+
+# posters temp folders
+/posters_raw
+/posters_2023

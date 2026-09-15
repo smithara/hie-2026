@@ -1,0 +1,19 @@
+{{- $links := .Site.Params.links -}}
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span class="brand-mark" aria-hidden="true">☀</span>
+      <span class="brand-text">{{ .Site.Params.shortTitle }}</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/posters/" | relURL }}">Posters</a>
+      <a href="{{ $links.schedule }}" target="_blank" rel="noopener">Schedule&nbsp;↗</a>
+      <a class="btn btn-sm" href="{{ $links.registration }}" target="_blank" rel="noopener">Register&nbsp;↗</a>
+    </nav>
+  </div>
+</header>

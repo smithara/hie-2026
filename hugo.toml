@@ -1,0 +1,50 @@
+# Hugo configuration — ESLAB & Heliophysics in Europe #3 (2026)
+# NOTE: set baseURL to your final Netlify domain (or custom domain) before the
+# production deploy. Relative links work regardless, but absolute URLs (sitemap,
+# RSS, Open Graph) use this value.
+baseURL = "https://heliophysics-europe-2026.netlify.app/"
+title = "ESLAB & Heliophysics in Europe #3"
+enableRobotsTXT = true
+enableGitInfo = false
+defaultContentLanguage = "en"
+# No tags/categories on this site.
+disableKinds = ["taxonomy", "term"]
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en_GB"
+    weight = 1
+
+[params]
+  # Shows a persistent "not the official site" banner across every page.
+  # Set to false before pointing this at a real, production launch.
+  demoMode = false
+
+  shortTitle = "Heliophysics in Europe #3"
+  eventName = "ESLAB & Heliophysics in Europe #3"
+  tagline = "The 2026 ESLAB Symposium"
+  dates = "21–24 September 2026"
+  venue = "ESA/ESTEC, Noordwijk, The Netherlands"
+  aim = "Bringing together the full breadth of heliophysics in Europe, with an emphasis on the cross-cutting science that connects the discipline."
+  abstractDeadline = "30 June 2026"
+  registrationDeadline = "31 July 2026"
+  noFees = true
+  posterFormat = "A1 portrait"
+
+  # Authoritative pages stay on the ESA cosmos portal — we link back to them.
+  [params.links]
+    esaHome = "https://www.cosmos.esa.int/web/esa-heliophysics/heliophysics-in-europe-2026"
+    registration = "https://www.cosmos.esa.int/web/esa-heliophysics/registration"
+    abstracts = "https://www.cosmos.esa.int/web/esa-heliophysics/abstract-submission"
+    schedule = "https://www.cosmos.esa.int/web/esa-heliophysics/schedule-and-session-details"
+    venue = "https://www.cosmos.esa.int/web/esa-heliophysics/venue-and-transport"
+    conduct = "https://www.cosmos.esa.int/web/esa-heliophysics/code-of-conduct1"
+    committee = "https://www.cosmos.esa.int/web/esa-heliophysics/soc-loc1"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[minify]
+  disableXML = true

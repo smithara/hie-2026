@@ -1,0 +1,22 @@
+{{- $links := .Site.Params.links -}}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <p class="footer-title">{{ .Site.Params.eventName }}</p>
+      <p class="footer-meta">{{ .Site.Params.dates }} · {{ .Site.Params.venue }}</p>
+    </div>
+    <nav class="footer-links" aria-label="ESA resources">
+      <p class="footer-heading">On ESA Cosmos</p>
+      <a href="{{ $links.registration }}" target="_blank" rel="noopener">Registration</a>
+      <a href="{{ $links.abstracts }}" target="_blank" rel="noopener">Abstract submission</a>
+      <a href="{{ $links.schedule }}" target="_blank" rel="noopener">Schedule &amp; sessions</a>
+      <a href="{{ $links.venue }}" target="_blank" rel="noopener">Venue &amp; transport</a>
+      <a href="{{ $links.conduct }}" target="_blank" rel="noopener">Code of conduct</a>
+      <a href="{{ $links.committee }}" target="_blank" rel="noopener">SOC &amp; LOC</a>
+    </nav>
+    <div class="footer-note">
+      <p>Unofficial companion site for browsing workshop posters. Authoritative
+      information lives on the <a href="{{ $links.esaHome }}" target="_blank" rel="noopener">ESA&nbsp;Cosmos portal</a>.</p>
+    </div>
+  </div>
+</footer>

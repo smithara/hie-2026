@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{- $p := .Site.Params -}}
+{{- $links := $p.links -}}
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">{{ $p.tagline }}</p>
+    <h1 class="hero-title">{{ $p.eventName }}</h1>
+    <p class="hero-facts">
+      <span class="hero-date">{{ $p.dates }}</span>
+      <span class="hero-sep" aria-hidden="true">·</span>
+      <span class="hero-venue">{{ $p.venue }}</span>
+    </p>
+    <p class="hero-aim">{{ $p.aim }}</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ "/posters/" | relURL }}">Browse posters</a>
+      <a class="btn btn-ghost" href="{{ $links.registration }}" target="_blank" rel="noopener">Register ↗</a>
+      <a class="btn btn-ghost" href="{{ $links.abstracts }}" target="_blank" rel="noopener">Submit an abstract ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="keyinfo">
+  <div class="wrap keyinfo-grid">
+    <div class="keyinfo-card">
+      <p class="keyinfo-label">Dates</p>
+      <p class="keyinfo-value">{{ $p.dates }}</p>
+    </div>
+    <div class="keyinfo-card">
+      <p class="keyinfo-label">Venue</p>
+      <p class="keyinfo-value">{{ $p.venue }}</p>
+    </div>
+    <div class="keyinfo-card">
+      <p class="keyinfo-label">Abstract deadline</p>
+      <p class="keyinfo-value">{{ $p.abstractDeadline }}</p>
+    </div>
+    <div class="keyinfo-card">
+      <p class="keyinfo-label">Registration</p>
+      <p class="keyinfo-value">by {{ $p.registrationDeadline }}{{ if $p.noFees }} · no fees{{ end }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="sessions">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Programme sessions</h2>
+      <a class="section-link" href="{{ $links.schedule }}" target="_blank" rel="noopener">Full schedule on ESA ↗</a>
+    </div>
+    <ol class="session-list">
+      {{ range .Params.sessions }}
+      <li class="session-item">
+        <span class="session-num">{{ .n }}</span>
+        <div class="session-body">
+          <h3 class="session-title">{{ .title }}</h3>
+          <p class="session-desc">{{ .desc }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="posters-cta">
+  <div class="wrap posters-cta-inner">
+    <div>
+      <h2>Poster gallery</h2>
+      <p>Posters ({{ $p.posterFormat }}) are on display throughout the week. Browse
+      the full set online — search by title or author and filter by topic.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ "/posters/" | relURL }}">Open the gallery</a>
+  </div>
+</section>
+{{ end }}

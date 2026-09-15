@@ -1,0 +1,18 @@
+{
+  "name": "heliophysics-europe-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Workshop website for ESLAB & Heliophysics in Europe #3 (ESA/ESTEC, 21-24 Sep 2026)",
+  "type": "module",
+  "scripts": {
+    "posters": "node scripts/gen-posters.mjs",
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "netlify-cli": "^27.4.2"
+  }
+}

@@ -1,0 +1,24 @@
+# Netlify build configuration.
+# The site is a pure Hugo build — poster thumbnails and data/posters.json are
+# generated locally (see README: `npm run posters`) and committed, so Netlify
+# does NOT need poppler/pdftoppm at build time.
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.162.1"
+  HUGO_EXTENDED = "true"
+  # Hugo reads NETLIFY-provided $DEPLOY_PRIME_URL etc.; nothing else required.
+
+# Poster PDFs and thumbnails are immutable once uploaded — cache them hard.
+[[headers]]
+  for = "/posters/pdf/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/posters/thumbs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

@@ -1,0 +1,11 @@
+{{- if .Site.Params.demoMode -}}
+{{- $links := .Site.Params.links -}}
+<div class="demo-banner" role="status">
+  <p class="wrap demo-banner-inner">
+    <strong>⚠ Demo site — not official.</strong>
+    <span>This is a work-in-progress preview, not the real workshop website. For
+    official information, registration and abstracts, see the
+    <a href="{{ $links.esaHome }}" target="_blank" rel="noopener">ESA&nbsp;Cosmos&nbsp;portal</a>.</span>
+  </p>
+</div>
+{{- end -}}

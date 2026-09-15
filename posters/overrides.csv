@@ -1,0 +1,8 @@
+# OPTIONAL: correct any poster whose poster number, topic, title or authors were
+# mis-parsed from its filename. Match on the exact PDF filename. Leave a field
+# blank to keep the value derived from the filename. Lines starting with # and
+# blank lines are ignored. Wrap values containing commas in "double quotes".
+#
+# filename,poster,topic,title,authors
+# P3_T2_Smith-Jane_Solar-Wind-Turbulence.pdf,"Solar wind turbulence at 1 AU","Jane Smith, A. Doe",Topic 2
+filename,poster,topic,title,authors
