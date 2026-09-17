@@ -13,6 +13,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "netlify-cli": "^27.4.2"
+    "netlify-cli": "^23.15.1"
   }
 }

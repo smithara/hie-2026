@@ -87,6 +87,16 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-ghost { border-color: currentColor; color: inherit; }
 .btn-ghost:hover { background: rgba(251, 133, 0, .12); }
 
+/* Closed registrations/abstracts: struck through, not clickable. */
+.is-disabled {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  opacity: .55;
+  cursor: default;
+  pointer-events: none;
+}
+.is-disabled:hover { text-decoration: line-through; }
+
 /* ---- Demo banner ------------------------------------------------------------ */
 .demo-banner {
   background: repeating-linear-gradient(135deg, #241a00, #241a00 14px, #1a1200 14px, #1a1200 28px);

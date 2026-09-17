@@ -1,5 +1,77 @@
 [
   {
+    "file": "P2_T4_Asvestari-Eleanna_Survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community.pdf",
+    "thumb": "p2-t4-asvestari-eleanna-survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community.jpg",
+    "slug": "p2-t4-asvestari-eleanna-survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community",
+    "poster": "2",
+    "topic": "Topic 4",
+    "title": "Survey on the careers and wellbeing of postdoctoral and non permanent researchers in the heliophysics community",
+    "authors": "Asvestari Eleanna"
+  },
+  {
+    "file": "P4_T4_Baratashvili-Tinatin_Total-solar-eclipse-2026-prediction-with-COCONUT.pdf",
+    "thumb": "p4-t4-baratashvili-tinatin-total-solar-eclipse-2026-prediction-with-coconut.jpg",
+    "slug": "p4-t4-baratashvili-tinatin-total-solar-eclipse-2026-prediction-with-coconut",
+    "poster": "4",
+    "topic": "Topic 4",
+    "title": "Total solar eclipse 2026 prediction with COCONUT",
+    "authors": "Baratashvili Tinatin"
+  },
+  {
+    "file": "P5_T3_Baumgartner-Steinleitner-Markus_Enabling-Comprehensive-Solar-Eruption-Analyses-Tools-developed-in-the-European-Horizon-Project-SOLER.pdf",
+    "thumb": "p5-t3-baumgartner-steinleitner-markus-enabling-comprehensive-solar-eruption-analyses-tools-developed-in-the-european-horizon-project-soler.jpg",
+    "slug": "p5-t3-baumgartner-steinleitner-markus-enabling-comprehensive-solar-eruption-analyses-tools-developed-in-the-european-horizon-project-soler",
+    "poster": "5",
+    "topic": "Topic 3",
+    "title": "Enabling Comprehensive Solar Eruption Analyses Tools developed in the European Horizon Project SOLER",
+    "authors": "Baumgartner Steinleitner Markus"
+  },
+  {
+    "file": "P6_T1_Berghmans-David_The-thinnest-flare-loop-strands-ever-observed-in-the-corona-by-Solar-Orbiter-EUI.pdf",
+    "thumb": "p6-t1-berghmans-david-the-thinnest-flare-loop-strands-ever-observed-in-the-corona-by-solar-orbiter-eui.jpg",
+    "slug": "p6-t1-berghmans-david-the-thinnest-flare-loop-strands-ever-observed-in-the-corona-by-solar-orbiter-eui",
+    "poster": "6",
+    "topic": "Topic 1",
+    "title": "The thinnest flare loop strands ever observed in the corona by Solar Orbiter EUI",
+    "authors": "Berghmans David"
+  },
+  {
+    "file": "P8_T2_Bluthner-Georg_MULTI-POINT-OBSERVATIONS-OF-THE-GLOBAL-MAGNETOSPHERIC-RESPONSE-TO-THE-20-22-DECEMBER-2015-CORONAL-MASS-EJECTION.pdf",
+    "thumb": "p8-t2-bluthner-georg-multi-point-observations-of-the-global-magnetospheric-response-to-the-20-22-december-2015-coronal-mass-ejection.jpg",
+    "slug": "p8-t2-bluthner-georg-multi-point-observations-of-the-global-magnetospheric-response-to-the-20-22-december-2015-coronal-mass-ejection",
+    "poster": "8",
+    "topic": "Topic 2",
+    "title": "MULTI POINT OBSERVATIONS OF THE GLOBAL MAGNETOSPHERIC RESPONSE TO THE 20 22 DECEMBER 2015 CORONAL MASS EJECTION",
+    "authors": "Bluthner Georg"
+  },
+  {
+    "file": "P11_T2_Christodoulou-Evangelia_Proton-Belt-Dynamics-Following-the-May-2024-Geospace-Magnetic-Superstorm.pdf",
+    "thumb": "p11-t2-christodoulou-evangelia-proton-belt-dynamics-following-the-may-2024-geospace-magnetic-superstorm.jpg",
+    "slug": "p11-t2-christodoulou-evangelia-proton-belt-dynamics-following-the-may-2024-geospace-magnetic-superstorm",
+    "poster": "11",
+    "topic": "Topic 2",
+    "title": "Proton Belt Dynamics Following the May 2024 Geospace Magnetic Superstorm",
+    "authors": "Christodoulou Evangelia"
+  },
+  {
+    "file": "P12_T3_Christodoulou-Evangelia_Omnidirectional-Proton-Flux-Derivation-from-Sentinel-6-MF-NGRM-Observations.pdf",
+    "thumb": "p12-t3-christodoulou-evangelia-omnidirectional-proton-flux-derivation-from-sentinel-6-mf-ngrm-observations.jpg",
+    "slug": "p12-t3-christodoulou-evangelia-omnidirectional-proton-flux-derivation-from-sentinel-6-mf-ngrm-observations",
+    "poster": "12",
+    "topic": "Topic 3",
+    "title": "Omnidirectional Proton Flux Derivation from Sentinel 6 MF NGRM Observations",
+    "authors": "Christodoulou Evangelia"
+  },
+  {
+    "file": "P16_T3_Dobbing-Ben_Development-of-a-Novel-Sensor-for-Measuring-Electron-Energisation-in-Space-Plasmas.pdf",
+    "thumb": "p16-t3-dobbing-ben-development-of-a-novel-sensor-for-measuring-electron-energisation-in-space-plasmas.jpg",
+    "slug": "p16-t3-dobbing-ben-development-of-a-novel-sensor-for-measuring-electron-energisation-in-space-plasmas",
+    "poster": "16",
+    "topic": "Topic 3",
+    "title": "Development of a Novel Sensor for Measuring Electron Energisation in Space Plasmas",
+    "authors": "Dobbing Ben"
+  },
+  {
     "file": "P20_T1_Froment-Clara_Observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics.pdf",
     "thumb": "p20-t1-froment-clara-observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics.jpg",
     "slug": "p20-t1-froment-clara-observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics",
@@ -7,6 +79,15 @@
     "topic": "Topic 1",
     "title": "Observation of thermal non equilibrium cycles in a solar pseudo streamer and implications for the solar wind dynamics",
     "authors": "Froment Clara"
+  },
+  {
+    "file": "P21_T2_Gajjar-Malhar_Solar-Shield-Physics-Informed-Machine-Learning-for-Space-Weather-Driven-LEO-Altitude-Deviation-Forecasting.pdf",
+    "thumb": "p21-t2-gajjar-malhar-solar-shield-physics-informed-machine-learning-for-space-weather-driven-leo-altitude-deviation-forecasting.jpg",
+    "slug": "p21-t2-gajjar-malhar-solar-shield-physics-informed-machine-learning-for-space-weather-driven-leo-altitude-deviation-forecasting",
+    "poster": "21",
+    "topic": "Topic 2",
+    "title": "Solar Shield Physics Informed Machine Learning for Space Weather Driven LEO Altitude Deviation Forecasting",
+    "authors": "Gajjar Malhar"
   },
   {
     "file": "P22_T1_George-Harriet_Bursty-bulk-flow-ionospheric-impacts-from-triple-conjunctive-observations.pdf",
@@ -27,6 +108,123 @@
     "authors": "Gonidakis Panagiotis"
   },
   {
+    "file": "P25_T1_Grandin-Maxime_Leveraging-citizen-science-for-auroral-research-ARCTICS-and-beyond.pdf",
+    "thumb": "p25-t1-grandin-maxime-leveraging-citizen-science-for-auroral-research-arctics-and-beyond.jpg",
+    "slug": "p25-t1-grandin-maxime-leveraging-citizen-science-for-auroral-research-arctics-and-beyond",
+    "poster": "25",
+    "topic": "Topic 1",
+    "title": "Leveraging citizen science for auroral research ARCTICS and beyond",
+    "authors": "Grandin Maxime"
+  },
+  {
+    "file": "P26_T1_Hoppe-Theresa_Can-auroral-activity-have-an-effect-on-the-upper-mesospheric-temperature.pdf",
+    "thumb": "p26-t1-hoppe-theresa-can-auroral-activity-have-an-effect-on-the-upper-mesospheric-temperature.jpg",
+    "slug": "p26-t1-hoppe-theresa-can-auroral-activity-have-an-effect-on-the-upper-mesospheric-temperature",
+    "poster": "26",
+    "topic": "Topic 1",
+    "title": "Can auroral activity have an effect on the upper mesospheric temperature",
+    "authors": "Hoppe Theresa"
+  },
+  {
+    "file": "P29_T2_Kalkan-Mirkan-Yusuf_On-the-Prediction-of-Future-Geomagnetic-Activities-Using-Artificial-Intelligence-Techniques.pdf",
+    "thumb": "p29-t2-kalkan-mirkan-yusuf-on-the-prediction-of-future-geomagnetic-activities-using-artificial-intelligence-techniques.jpg",
+    "slug": "p29-t2-kalkan-mirkan-yusuf-on-the-prediction-of-future-geomagnetic-activities-using-artificial-intelligence-techniques",
+    "poster": "29",
+    "topic": "Topic 2",
+    "title": "On the Prediction of Future Geomagnetic Activities Using Artificial Intelligence Techniques",
+    "authors": "Kalkan Mirkan Yusuf"
+  },
+  {
+    "file": "P30_T2_Ke-Kuan-Yu_FLAG-Forecasts-and-Long-term-probabilistic-data-Assimilative-prediction-of-the-effects-of-Geomagnetic-storms.pdf",
+    "thumb": "p30-t2-ke-kuan-yu-flag-forecasts-and-long-term-probabilistic-data-assimilative-prediction-of-the-effects-of-geomagnetic-storms.jpg",
+    "slug": "p30-t2-ke-kuan-yu-flag-forecasts-and-long-term-probabilistic-data-assimilative-prediction-of-the-effects-of-geomagnetic-storms",
+    "poster": "30",
+    "topic": "Topic 2",
+    "title": "FLAG Forecasts and Long term probabilistic data Assimilative prediction of the effects of Geomagnetic storms",
+    "authors": "Ke Kuan Yu"
+  },
+  {
+    "file": "P32_T2_Lautenbach-Simon_Space-Weather-Research-Activities-at-Ruhr-University-Bochum.pdf",
+    "thumb": "p32-t2-lautenbach-simon-space-weather-research-activities-at-ruhr-university-bochum.jpg",
+    "slug": "p32-t2-lautenbach-simon-space-weather-research-activities-at-ruhr-university-bochum",
+    "poster": "32",
+    "topic": "Topic 2",
+    "title": "Space Weather Research Activities at Ruhr University Bochum",
+    "authors": "Lautenbach Simon"
+  },
+  {
+    "file": "P33_T2_Legnaro-Edoardo_Physics-Driven-Machine-Learning-for-Operational-Space-Weather-Forecasting.pdf",
+    "thumb": "p33-t2-legnaro-edoardo-physics-driven-machine-learning-for-operational-space-weather-forecasting.jpg",
+    "slug": "p33-t2-legnaro-edoardo-physics-driven-machine-learning-for-operational-space-weather-forecasting",
+    "poster": "33",
+    "topic": "Topic 2",
+    "title": "Physics Driven Machine Learning for Operational Space Weather Forecasting",
+    "authors": "Legnaro Edoardo"
+  },
+  {
+    "file": "P34_T1_Lindberg-Martin_Comparison-of-Electron-Acceleration-at-Heliospheric-Shocks.pdf",
+    "thumb": "p34-t1-lindberg-martin-comparison-of-electron-acceleration-at-heliospheric-shocks.jpg",
+    "slug": "p34-t1-lindberg-martin-comparison-of-electron-acceleration-at-heliospheric-shocks",
+    "poster": "34",
+    "topic": "Topic 1",
+    "title": "Comparison of Electron Acceleration at Heliospheric Shocks",
+    "authors": "Lindberg Martin"
+  },
+  {
+    "file": "P44_T1_Rausch-Jakob_Satellite-based-airglow-aurora-observations-during-the-April-2023-geomagnetic-storm.pdf",
+    "thumb": "p44-t1-rausch-jakob-satellite-based-airglow-aurora-observations-during-the-april-2023-geomagnetic-storm.jpg",
+    "slug": "p44-t1-rausch-jakob-satellite-based-airglow-aurora-observations-during-the-april-2023-geomagnetic-storm",
+    "poster": "44",
+    "topic": "Topic 1",
+    "title": "Satellite based airglow aurora observations during the April 2023 geomagnetic storm",
+    "authors": "Rausch Jakob"
+  },
+  {
+    "file": "P47_T4_Rezeau-Laurence_The-GHG-footprint-of-an-experimental-laboratory.pdf",
+    "thumb": "p47-t4-rezeau-laurence-the-ghg-footprint-of-an-experimental-laboratory.jpg",
+    "slug": "p47-t4-rezeau-laurence-the-ghg-footprint-of-an-experimental-laboratory",
+    "poster": "47",
+    "topic": "Topic 4",
+    "title": "The GHG footprint of an experimental laboratory",
+    "authors": "Rezeau Laurence"
+  },
+  {
+    "file": "P48_T3_Smith-Ashley_ESA-Swarm-products-tools-and-services-supporting-open-science.pdf",
+    "thumb": "p48-t3-smith-ashley-esa-swarm-products-tools-and-services-supporting-open-science.jpg",
+    "slug": "p48-t3-smith-ashley-esa-swarm-products-tools-and-services-supporting-open-science",
+    "poster": "48",
+    "topic": "Topic 3",
+    "title": "ESA Swarm products tools and services supporting open science",
+    "authors": "Smith Ashley"
+  },
+  {
+    "file": "P51_T1_Swaczyna-Pawel_Between-Space-Physics-and-Astrophysics-The-Subparsec-Structure-of-the-Local-Interstellar-Medium.pdf",
+    "thumb": "p51-t1-swaczyna-pawel-between-space-physics-and-astrophysics-the-subparsec-structure-of-the-local-interstellar-medium.jpg",
+    "slug": "p51-t1-swaczyna-pawel-between-space-physics-and-astrophysics-the-subparsec-structure-of-the-local-interstellar-medium",
+    "poster": "51",
+    "topic": "Topic 1",
+    "title": "Between Space Physics and Astrophysics The Subparsec Structure of the Local Interstellar Medium",
+    "authors": "Swaczyna Pawel"
+  },
+  {
+    "file": "P53_T4_Vanlommel-Petra_Polar-exploration-an-exceptional-journey-Story-telling-as-an-engaging-tool.pdf",
+    "thumb": "p53-t4-vanlommel-petra-polar-exploration-an-exceptional-journey-story-telling-as-an-engaging-tool.jpg",
+    "slug": "p53-t4-vanlommel-petra-polar-exploration-an-exceptional-journey-story-telling-as-an-engaging-tool",
+    "poster": "53",
+    "topic": "Topic 4",
+    "title": "Polar exploration an exceptional journey Story telling as an engaging tool",
+    "authors": "Vanlommel Petra"
+  },
+  {
+    "file": "P54_T3_Wang-Dedong_Study-of-Energetic-Particle-Precipitation-and-Atmospheric-Impacts-SEEP-An-ESA-New-Earth-Observation-Mission-Idea-NEOMI.pdf",
+    "thumb": "p54-t3-wang-dedong-study-of-energetic-particle-precipitation-and-atmospheric-impacts-seep-an-esa-new-earth-observation-mission-idea-neomi.jpg",
+    "slug": "p54-t3-wang-dedong-study-of-energetic-particle-precipitation-and-atmospheric-impacts-seep-an-esa-new-earth-observation-mission-idea-neomi",
+    "poster": "54",
+    "topic": "Topic 3",
+    "title": "Study of Energetic Particle Precipitation and Atmospheric Impacts SEEP An ESA New Earth Observation Mission Idea NEOMI",
+    "authors": "Wang Dedong"
+  },
+  {
     "file": "P55_T2_Waters-Cara_Bridging-Scales-in-the-Solar-Wind-Linking-Bulk-Plasma-States-to-Turbulence-Regimes-Using-Unsupervised-Machine-Learning.pdf",
     "thumb": "p55-t2-waters-cara-bridging-scales-in-the-solar-wind-linking-bulk-plasma-states-to-turbulence-regimes-using-unsupervised-machine-learning.jpg",
     "slug": "p55-t2-waters-cara-bridging-scales-in-the-solar-wind-linking-bulk-plasma-states-to-turbulence-regimes-using-unsupervised-machine-learning",
@@ -34,6 +232,15 @@
     "topic": "Topic 2",
     "title": "Bridging Scales in the Solar Wind Linking Bulk Plasma States to Turbulence Regimes Using Unsupervised Machine Learning",
     "authors": "Waters Cara"
+  },
+  {
+    "file": "P57_T2_Dimitrakoula-Adamantia_Physics-based-modelling-of-radial-diffusion-in-the-outer-Van-Allen-belt.pdf",
+    "thumb": "p57-t2-dimitrakoula-adamantia-physics-based-modelling-of-radial-diffusion-in-the-outer-van-allen-belt.jpg",
+    "slug": "p57-t2-dimitrakoula-adamantia-physics-based-modelling-of-radial-diffusion-in-the-outer-van-allen-belt",
+    "poster": "57",
+    "topic": "Topic 2",
+    "title": "Physics based modelling of radial diffusion in the outer Van Allen belt",
+    "authors": "Dimitrakoula Adamantia"
   },
   {
     "file": "P59_T2_Guarnaccia-Federica_The-SMOS-mission-A-New-Eye-on-Solar-Radio-Emissions.pdf",
@@ -45,6 +252,33 @@
     "authors": "Guarnaccia Federica"
   },
   {
+    "file": "P60_T3_Heilig-Balazs_Subauroral-plasma-boundaries-and-associated-magnetospheric-phenomena.pdf",
+    "thumb": "p60-t3-heilig-balazs-subauroral-plasma-boundaries-and-associated-magnetospheric-phenomena.jpg",
+    "slug": "p60-t3-heilig-balazs-subauroral-plasma-boundaries-and-associated-magnetospheric-phenomena",
+    "poster": "60",
+    "topic": "Topic 3",
+    "title": "Subauroral plasma boundaries and associated magnetospheric phenomena",
+    "authors": "Heilig Balazs"
+  },
+  {
+    "file": "P63_T3_Nakopoulou-Eirini_Comparison-between-Geomagnetic-Storms-of-Different-Intensities-and-their-Correlation-with-Magnetospheric-Substorms.pdf",
+    "thumb": "p63-t3-nakopoulou-eirini-comparison-between-geomagnetic-storms-of-different-intensities-and-their-correlation-with-magnetospheric-substorms.jpg",
+    "slug": "p63-t3-nakopoulou-eirini-comparison-between-geomagnetic-storms-of-different-intensities-and-their-correlation-with-magnetospheric-substorms",
+    "poster": "63",
+    "topic": "Topic 3",
+    "title": "Comparison between Geomagnetic Storms of Different Intensities and their Correlation with Magnetospheric Substorms",
+    "authors": "Nakopoulou Eirini"
+  },
+  {
+    "file": "P64_T3_Papakonstantinou-Daniil_Web-application-for-retrospective-geomagnetic-storm-detection-main-phase-analysis-and-identification-of-solar-wind-influence-on-storm-intensity.pdf",
+    "thumb": "p64-t3-papakonstantinou-daniil-web-application-for-retrospective-geomagnetic-storm-detection-main-phase-analysis-and-identification-of-solar-wind-influence-on-storm-intensity.jpg",
+    "slug": "p64-t3-papakonstantinou-daniil-web-application-for-retrospective-geomagnetic-storm-detection-main-phase-analysis-and-identification-of-solar-wind-influence-on-storm-intensity",
+    "poster": "64",
+    "topic": "Topic 3",
+    "title": "Web application for retrospective geomagnetic storm detection main phase analysis and identification of solar wind influence on storm intensity",
+    "authors": "Papakonstantinou Daniil"
+  },
+  {
     "file": "P65_T1_Schmieder-Brigitte_Total-Eclipse-on-August-12-2026-observations-in-Spain-in-space-and-predictions-with-COCONUT-and-others.pdf",
     "thumb": "p65-t1-schmieder-brigitte-total-eclipse-on-august-12-2026-observations-in-spain-in-space-and-predictions-with-coconut-and-others.jpg",
     "slug": "p65-t1-schmieder-brigitte-total-eclipse-on-august-12-2026-observations-in-spain-in-space-and-predictions-with-coconut-and-others",
@@ -52,5 +286,32 @@
     "topic": "Topic 1",
     "title": "Total Eclipse on August 12 2026 observations in Spain in space and predictions with COCONUT and others",
     "authors": "Schmieder Brigitte"
+  },
+  {
+    "file": "P66_T3_Thanasoula-Konstantina_Calculation-of-Radial-Diffusion-Coefficients-using-combined-data-from-RBSP-and-THEMIS-missions.pdf",
+    "thumb": "p66-t3-thanasoula-konstantina-calculation-of-radial-diffusion-coefficients-using-combined-data-from-rbsp-and-themis-missions.jpg",
+    "slug": "p66-t3-thanasoula-konstantina-calculation-of-radial-diffusion-coefficients-using-combined-data-from-rbsp-and-themis-missions",
+    "poster": "66",
+    "topic": "Topic 3",
+    "title": "Calculation of Radial Diffusion Coefficients using combined data from RBSP and THEMIS missions",
+    "authors": "Thanasoula Konstantina"
+  },
+  {
+    "file": "P67_T2_Tomasik-Mate_MOSIAC-3D-Empirical-Model-of-the-Midlatitude-Ionospheric-Trough-Based-on-Swarm-Observations.pdf",
+    "thumb": "p67-t2-tomasik-mate-mosiac-3d-empirical-model-of-the-midlatitude-ionospheric-trough-based-on-swarm-observations.jpg",
+    "slug": "p67-t2-tomasik-mate-mosiac-3d-empirical-model-of-the-midlatitude-ionospheric-trough-based-on-swarm-observations",
+    "poster": "67",
+    "topic": "Topic 2",
+    "title": "MOSIAC 3D Empirical Model of the Midlatitude Ionospheric Trough Based on Swarm Observations",
+    "authors": "Tomasik Mate"
+  },
+  {
+    "file": "P69_T1_Lalti-Ahmad_Solar-Magnetic-Configuration-Control-over-Radiation-Belt-Electrons.pdf",
+    "thumb": "p69-t1-lalti-ahmad-solar-magnetic-configuration-control-over-radiation-belt-electrons.jpg",
+    "slug": "p69-t1-lalti-ahmad-solar-magnetic-configuration-control-over-radiation-belt-electrons",
+    "poster": "69",
+    "topic": "Topic 1",
+    "title": "Solar Magnetic Configuration Control over Radiation Belt Electrons",
+    "authors": "Lalti Ahmad"
   }
 ]
