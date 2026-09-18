@@ -1,6 +1,5 @@
-# Build the Hugo site and deploy it to GitHub Pages.
-# Netlify (see netlify.toml) remains the primary deployment; this gives the
-# repo a working github.io mirror without touching the Netlify setup.
+# Build the Hugo site and deploy it to GitHub Pages, plus push the same
+# build to Netlify (netlify.toml) as a backup of the old hosting setup.
 name: Deploy Hugo site to GitHub Pages
 
 on:
@@ -54,3 +53,35 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Runs independently of the GitHub Pages build/deploy jobs above, so a
+  # Netlify hiccup can't block a Pages deploy (or vice versa). Uses the
+  # site's own baseURL (from hugo.toml) rather than the Pages one.
+  netlify-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Hugo
+        run: |
+          curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" -o hugo.deb
+          sudo dpkg -i hugo.deb
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install netlify-cli
+        run: npm ci
+
+      - name: Deploy to Netlify
+        run: npx netlify-cli deploy --prod --dir=public --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

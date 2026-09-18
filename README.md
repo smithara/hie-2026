@@ -140,6 +140,21 @@ One-time setup: in the repo settings, go to **Settings → Pages** and set
 **Source** to **GitHub Actions**. The workflow needs no further configuration —
 it reuses the same Hugo version pinned in `netlify.toml`.
 
+### Backup deploy to Netlify
+
+The same workflow's `netlify-backup` job also pushes the build to the existing
+Netlify site on every run, as a fallback if GitHub Pages or the DNS cutover has
+issues. It needs two repo secrets (**Settings → Secrets and variables →
+Actions**):
+
+- `NETLIFY_AUTH_TOKEN` — a personal access token from Netlify
+  (*User settings → Applications → New access token*).
+- `NETLIFY_SITE_ID` — the site's API ID (*Site settings → General → Site details*;
+  currently `980b498f-4c26-476b-bc44-5f098e8f6048`).
+
+This job runs independently of the Pages build/deploy jobs, so a failure here
+won't block the GitHub Pages deploy (and vice versa).
+
 ### ⚠️ A note on poster file sizes
 
 A1 poster PDFs can be large (often 5–50 MB each). Sixty of them can add up to well
