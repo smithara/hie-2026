@@ -12,9 +12,9 @@
     "build": "hugo --gc --minify"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.12"
   },
   "dependencies": {
-    "netlify-cli": "^23.15.1"
+    "netlify-cli": "^27.8.0"
   }
 }
