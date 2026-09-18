@@ -74,10 +74,19 @@ function humanize(part) {
 }
 
 function humanizeAuthors(part) {
-  // "+" separates authors, "-" separates words within one author name.
+  // "+" separates authors; within one author, "-" separates words following
+  // the filename convention Lastname[-Compound]-Firstname — the last word is
+  // the given name, everything before it is the (possibly compound) surname.
+  // Rendered as "Firstname Lastname" to match expected.csv/overrides.csv.
   return (part || "")
     .split("+")
-    .map((a) => a.replace(/-/g, " ").replace(/\s+/g, " ").trim())
+    .map((a) => {
+      const words = a.replace(/\s+/g, " ").trim().split("-").filter(Boolean);
+      if (words.length <= 1) return words.join(" ");
+      const firstname = words[words.length - 1];
+      const lastname = words.slice(0, -1).join(" ");
+      return `${firstname} ${lastname}`;
+    })
     .filter(Boolean)
     .join(", ");
 }
@@ -139,10 +148,10 @@ function parseFilename(filename) {
 // message (ideally the presenter's hello) creates it, so the name must be
 // deterministic. Format:  "P<n> Lastname: Title…"  clipped to 60 chars.
 // ---------------------------------------------------------------------------
-function zulipTopic({ poster, authors, authorsSurnameLast, title }) {
-  // Filenames give "Lastname Firstname"; expected.csv gives "Firstname Lastname".
+function zulipTopic({ poster, authors, title }) {
+  // "authors" is always rendered "Firstname Lastname" — surname is the last word.
   const words = (authors || "").split(",")[0].trim().split(/\s+/);
-  const surname = (authorsSurnameLast ? words[words.length - 1] : words[0]) || "";
+  const surname = words[words.length - 1] || "";
   const prefix = [poster ? `P${poster}` : "", surname].filter(Boolean).join(" ");
   const full = prefix ? `${prefix}: ${title}` : title;
   if (full.length <= ZULIP_TOPIC_MAX) return full;
@@ -339,10 +348,9 @@ function main() {
     if (meta.poster) {
       const exp = expected.get(meta.poster);
       if (exp) {
-        if (exp.authors && !meta.authors) {
-          meta.authors = exp.authors;
-          meta.authorsSurnameLast = true;
-        }
+        // The filename's Lastname-Firstname parsing can't reliably reorder
+        // names with multiple given/family names, so prefer the ESA list.
+        if (exp.authors) meta.authors = exp.authors;
         if (exp.topic) meta.topic = exp.topic;
         if (exp.title && !meta.title) meta.title = exp.title;
       } else {
