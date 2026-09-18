@@ -108,6 +108,30 @@ P3_T2_weird-name.pdf,3,Topic 2,"Magnetic reconnection in the magnetotail","A. Au
 
 Re-run `npm run posters` after editing.
 
+### Online discussion — one Zulip topic per poster
+
+Each card has a **Discuss on Zulip** link into the workshop Zulip
+(`[params.zulip]` in `hugo.toml`: `org`, `channel`, `channelId`). Nothing is
+created up front — the link opens the topic with compose pre-filled, and the
+first message creates it — so the topic name is generated deterministically by
+`npm run posters` (`zulipTopic` in `data/posters.json`: `P<n> Lastname: Title…`,
+clipped to Zulip's 60-char limit). Ask presenters to post a hello in their topic
+and follow it. The links are hidden until `channelId` is set (it's the number in
+the channel's settings URL, `…/#channels/<id>/…`).
+
+`npm run zulip-users` builds `posters/zulip-users.csv`, mapping each poster in
+`expected.csv` to the presenter's Zulip account (name-matched via the bot in
+`.zuliprc`, which is gitignored). Rows marked `manual` are yours and are kept
+across runs; re-run as people join Zulip. The script is read-only — it never
+posts.
+
+`npm run zulip-seed` creates the topics up front: one bot message per received
+poster, @-mentioning the presenter (which notifies them and makes them follow
+the topic). Dry run by default — add `-- --post` to send, `-- --limit 1` to
+smoke-test a single message. Existing topics are skipped, and so are posters
+whose presenter isn't matched yet (so they can still get a mention later);
+`-- --all` seeds those without a mention.
+
 ---
 
 ## Deploying to Netlify

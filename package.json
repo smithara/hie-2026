@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "posters": "node scripts/gen-posters.mjs",
+    "zulip-users": "node scripts/zulip-users.mjs",
+    "zulip-seed": "node scripts/zulip-seed.mjs",
     "dev": "hugo server -D",
     "build": "hugo --gc --minify"
   },

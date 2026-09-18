@@ -9,3 +9,21 @@ To publish newly uploaded posters:
 3. Watch for duplicate uploads (same poster submitted twice under different submission IDs) — diff with `md5sum` and only copy one.
 4. Run `npm run posters` (requires `poppler-utils` — `pdftoppm`/`pdfinfo` — on PATH) to generate thumbnails and rewrite `data/posters.json`.
 5. Check the script's console output: it lists any remaining missing poster numbers (cross-checked against `expected.csv`) and any filename-parsing warnings — a warning usually means a rename typo.
+6. Run `npm run zulip-users` to refresh `posters/zulip-users.csv`, the poster → presenter Zulip account index (see below). Report the "unmatched" list to the user; do not try to guess matches.
+7. Print the next steps for the user to publish (do not run these yourself):
+   ```
+   hugo --gc --minify
+   netlify deploy --prod --dir=public
+   ```
+
+# Zulip discussion topics and the presenter index
+
+Every poster card links to a topic in the `2026: Posters` channel on https://euro-helio.zulipchat.com (config in `hugo.toml` `[params.zulip]`; topic names are generated into `data/posters.json` by `npm run posters`, so they change only if a poster's number/author/title changes).
+
+`posters/zulip-users.csv` maps each poster in `expected.csv` to the presenter's Zulip user id, so a seed message can @-mention them. Rules:
+
+- Refresh it with `npm run zulip-users` whenever `expected.csv` changes or as part of a poster ingest (people join Zulip over time, so unmatched rows get another chance). It uses the bot credentials in `.zuliprc` (repo root, gitignored — never commit or print the key) and only **reads** from Zulip.
+- Rows with `match=manual` are hand-corrected and are preserved verbatim; `auto` rows are recomputed; `none` rows are unmatched. If the user tells you a match (e.g. "P3 is George Balasis"), edit the row, set `match=manual`, and re-run to confirm it survives.
+- `npm run zulip-seed` (`scripts/zulip-seed.mjs`) creates the missing discussion topics: one bot message per received poster, @-mentioning the presenter from the index. It is a **dry run by default** and idempotent (existing topics and unmatched presenters are skipped). You may run the dry run to show the user what would be posted.
+- The bot must **not send any Zulip messages** (`--post`, or anything else) unless the user explicitly asks in that session. Treat any posting as outward-facing: show the dry-run output and confirm before running `--post`.
+- Node's `fetch` ignores proxy env vars; if `npm run zulip-users` fails with "fetch failed" inside a sandboxed shell, run it outside the sandbox — it is a read-only call.

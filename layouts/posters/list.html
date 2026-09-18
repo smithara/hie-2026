@@ -1,5 +1,13 @@
 {{ define "main" }}
 {{- $posters := hugo.Data.posters -}}
+{{- /* Zulip discussion links need org + channelId; otherwise they're omitted. */ -}}
+{{- $zulip := .Site.Params.zulip -}}
+{{- $zulipChannel := "" -}}
+{{- $zulipBase := "" -}}
+{{- if and $zulip $zulip.org $zulip.channelId -}}
+  {{- $zulipChannel = printf "%s/#narrow/channel/%s-%s" (strings.TrimSuffix "/" $zulip.org) $zulip.channelId (urlize $zulip.channel) -}}
+  {{- $zulipBase = printf "%s/topic/" $zulipChannel -}}
+{{- end -}}
 
 <section class="page-head">
   <div class="wrap">
@@ -15,6 +23,12 @@
       <p class="placeholder-note">🧪 The posters below are <strong>placeholders</strong> for
       demonstration purposes only — real submissions aren't in yet. This shows how search,
       filtering and thumbnails will work once actual posters are added.</p>
+      {{ end }}
+      {{ if $zulipBase }}
+      <p class="discuss-note">💬 Follow the <strong>Discuss on Zulip</strong> links to ask questions and discuss a poster
+      (<a href="{{ $zulipChannel }}" target="_blank" rel="noopener">{{ $zulip.channel }}</a> channel on the
+      <a href="{{ $zulip.org }}" target="_blank" rel="noopener">Heliophysics in Europe Zulip</a>),
+      or chat live in the {{ with .Site.Params.links.webex }}<a href="{{ . }}" target="_blank" rel="noopener">Webex breakout room</a>{{ else }}Webex breakout room{{ end }}.</p>
       {{ end }}
       {{- $topics := slice -}}
       {{- range $posters }}{{ $topics = $topics | append .topic }}{{ end -}}
@@ -37,7 +51,7 @@
 
       <ul class="poster-grid" id="poster-grid">
         {{ range $posters }}
-        <li class="poster-card"
+        <li class="poster-card" id="{{ .slug }}"
             data-search="{{ lower (printf "%s %s" .title .authors) }}"
             data-topic="{{ .topic }}">
           <a class="poster-link" href="{{ (printf "posters/pdf/%s" .file) | relURL }}" target="_blank" rel="noopener">
@@ -55,6 +69,12 @@
               {{ with .authors }}<span class="poster-authors">{{ . }}</span>{{ end }}
             </span>
           </a>
+          {{ if and $zulipBase .zulipTopicHash }}
+          <div class="poster-actions">
+            <a class="poster-discuss" href="{{ $zulipBase }}{{ .zulipTopicHash | safeURL }}" target="_blank" rel="noopener"
+               title="Zulip topic: {{ .zulipTopic }}">💬 Discuss on Zulip</a>
+          </div>
+          {{ end }}
         </li>
         {{ end }}
       </ul>

@@ -33,6 +33,7 @@ const EXPECTED = path.join(ROOT, "posters", "expected.csv");
 const THUMB_MAX_PX = 700; // longest edge of the first-page thumbnail
 const JPEG_QUALITY = 82;
 const UNASSIGNED = "Unassigned";
+const ZULIP_TOPIC_MAX = 60; // Zulip's hard limit on topic name length
 
 // ---------------------------------------------------------------------------
 // Tooling checks
@@ -130,6 +131,31 @@ function parseFilename(filename) {
     title,
     conforming: Boolean(poster || topic) && parts.length >= 2,
   };
+}
+
+// ---------------------------------------------------------------------------
+// Zulip discussion topic — one per poster in the "<year>: Posters" channel.
+// Nothing is created up front: the site links to the topic and the first
+// message (ideally the presenter's hello) creates it, so the name must be
+// deterministic. Format:  "P<n> Lastname: Title…"  clipped to 60 chars.
+// ---------------------------------------------------------------------------
+function zulipTopic({ poster, authors, authorsSurnameLast, title }) {
+  // Filenames give "Lastname Firstname"; expected.csv gives "Firstname Lastname".
+  const words = (authors || "").split(",")[0].trim().split(/\s+/);
+  const surname = (authorsSurnameLast ? words[words.length - 1] : words[0]) || "";
+  const prefix = [poster ? `P${poster}` : "", surname].filter(Boolean).join(" ");
+  const full = prefix ? `${prefix}: ${title}` : title;
+  if (full.length <= ZULIP_TOPIC_MAX) return full;
+  // Clip on a word boundary and add an ellipsis (counts as one char).
+  let cut = full.slice(0, ZULIP_TOPIC_MAX - 1);
+  const sp = cut.lastIndexOf(" ");
+  if (sp > prefix.length + 2) cut = cut.slice(0, sp);
+  return cut.replace(/[\s:,;.-]+$/, "") + "…";
+}
+
+// Zulip's own URL-fragment encoding: percent-encode, then "%" → ".".
+function zulipHashEncode(s) {
+  return encodeURIComponent(s).replace(/%/g, ".");
 }
 
 // ---------------------------------------------------------------------------
@@ -313,7 +339,10 @@ function main() {
     if (meta.poster) {
       const exp = expected.get(meta.poster);
       if (exp) {
-        if (exp.authors && !meta.authors) meta.authors = exp.authors;
+        if (exp.authors && !meta.authors) {
+          meta.authors = exp.authors;
+          meta.authorsSurnameLast = true;
+        }
         if (exp.topic) meta.topic = exp.topic;
         if (exp.title && !meta.title) meta.title = exp.title;
       } else {
@@ -329,6 +358,7 @@ function main() {
       if (ov.authors) meta.authors = ov.authors;
     }
 
+    const discuss = zulipTopic(meta);
     entries.push({
       file,
       thumb: thumbFile,
@@ -337,6 +367,8 @@ function main() {
       topic: normalizeTopic(meta.topic) || UNASSIGNED,
       title: meta.title,
       authors: meta.authors,
+      zulipTopic: discuss,
+      zulipTopicHash: zulipHashEncode(discuss),
     });
   }
 

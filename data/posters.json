@@ -6,7 +6,9 @@
     "poster": "2",
     "topic": "Topic 4",
     "title": "Survey on the careers and wellbeing of postdoctoral and non permanent researchers in the heliophysics community",
-    "authors": "Asvestari Eleanna"
+    "authors": "Asvestari Eleanna",
+    "zulipTopic": "P2 Asvestari: Survey on the careers and wellbeing of…",
+    "zulipTopicHash": "P2.20Asvestari.3A.20Survey.20on.20the.20careers.20and.20wellbeing.20of.E2.80.A6"
   },
   {
     "file": "P3_T2_Balasis-Georgios_Can-information-theory-provide-a-scientific-basis-for-machine-learning-applications-related-to-space-weather.pdf",
@@ -15,7 +17,9 @@
     "poster": "3",
     "topic": "Topic 2",
     "title": "Can information theory provide a scientific basis for machine learning applications related to space weather",
-    "authors": "Balasis Georgios"
+    "authors": "Balasis Georgios",
+    "zulipTopic": "P3 Balasis: Can information theory provide a scientific…",
+    "zulipTopicHash": "P3.20Balasis.3A.20Can.20information.20theory.20provide.20a.20scientific.E2.80.A6"
   },
   {
     "file": "P4_T4_Baratashvili-Tinatin_Total-solar-eclipse-2026-prediction-with-COCONUT.pdf",
@@ -24,7 +28,9 @@
     "poster": "4",
     "topic": "Topic 4",
     "title": "Total solar eclipse 2026 prediction with COCONUT",
-    "authors": "Baratashvili Tinatin"
+    "authors": "Baratashvili Tinatin",
+    "zulipTopic": "P4 Baratashvili: Total solar eclipse 2026 prediction with…",
+    "zulipTopicHash": "P4.20Baratashvili.3A.20Total.20solar.20eclipse.202026.20prediction.20with.E2.80.A6"
   },
   {
     "file": "P5_T3_Baumgartner-Steinleitner-Markus_Enabling-Comprehensive-Solar-Eruption-Analyses-Tools-developed-in-the-European-Horizon-Project-SOLER.pdf",
@@ -33,7 +39,9 @@
     "poster": "5",
     "topic": "Topic 3",
     "title": "Enabling Comprehensive Solar Eruption Analyses Tools developed in the European Horizon Project SOLER",
-    "authors": "Baumgartner Steinleitner Markus"
+    "authors": "Baumgartner Steinleitner Markus",
+    "zulipTopic": "P5 Baumgartner: Enabling Comprehensive Solar Eruption…",
+    "zulipTopicHash": "P5.20Baumgartner.3A.20Enabling.20Comprehensive.20Solar.20Eruption.E2.80.A6"
   },
   {
     "file": "P6_T1_Berghmans-David_The-thinnest-flare-loop-strands-ever-observed-in-the-corona-by-Solar-Orbiter-EUI.pdf",
@@ -42,7 +50,9 @@
     "poster": "6",
     "topic": "Topic 1",
     "title": "The thinnest flare loop strands ever observed in the corona by Solar Orbiter EUI",
-    "authors": "Berghmans David"
+    "authors": "Berghmans David",
+    "zulipTopic": "P6 Berghmans: The thinnest flare loop strands ever…",
+    "zulipTopicHash": "P6.20Berghmans.3A.20The.20thinnest.20flare.20loop.20strands.20ever.E2.80.A6"
   },
   {
     "file": "P8_T2_Bluthner-Georg_MULTI-POINT-OBSERVATIONS-OF-THE-GLOBAL-MAGNETOSPHERIC-RESPONSE-TO-THE-20-22-DECEMBER-2015-CORONAL-MASS-EJECTION.pdf",
@@ -51,7 +61,9 @@
     "poster": "8",
     "topic": "Topic 2",
     "title": "MULTI POINT OBSERVATIONS OF THE GLOBAL MAGNETOSPHERIC RESPONSE TO THE 20 22 DECEMBER 2015 CORONAL MASS EJECTION",
-    "authors": "Bluthner Georg"
+    "authors": "Bluthner Georg",
+    "zulipTopic": "P8 Bluthner: MULTI POINT OBSERVATIONS OF THE GLOBAL…",
+    "zulipTopicHash": "P8.20Bluthner.3A.20MULTI.20POINT.20OBSERVATIONS.20OF.20THE.20GLOBAL.E2.80.A6"
   },
   {
     "file": "P11_T2_Christodoulou-Evangelia_Proton-Belt-Dynamics-Following-the-May-2024-Geospace-Magnetic-Superstorm.pdf",
@@ -60,7 +72,9 @@
     "poster": "11",
     "topic": "Topic 2",
     "title": "Proton Belt Dynamics Following the May 2024 Geospace Magnetic Superstorm",
-    "authors": "Christodoulou Evangelia"
+    "authors": "Christodoulou Evangelia",
+    "zulipTopic": "P11 Christodoulou: Proton Belt Dynamics Following the May…",
+    "zulipTopicHash": "P11.20Christodoulou.3A.20Proton.20Belt.20Dynamics.20Following.20the.20May.E2.80.A6"
   },
   {
     "file": "P12_T3_Christodoulou-Evangelia_Omnidirectional-Proton-Flux-Derivation-from-Sentinel-6-MF-NGRM-Observations.pdf",
@@ -69,7 +83,9 @@
     "poster": "12",
     "topic": "Topic 3",
     "title": "Omnidirectional Proton Flux Derivation from Sentinel 6 MF NGRM Observations",
-    "authors": "Christodoulou Evangelia"
+    "authors": "Christodoulou Evangelia",
+    "zulipTopic": "P12 Christodoulou: Omnidirectional Proton Flux Derivation…",
+    "zulipTopicHash": "P12.20Christodoulou.3A.20Omnidirectional.20Proton.20Flux.20Derivation.E2.80.A6"
   },
   {
     "file": "P14_T2_Diaz-Figueroa-Elton-Everardo_SunRunner3D-MHD-Simulations-of-Solar-Cycle-25-Geomagnetic-Storms-Heliospheric-Propagation-and-In-Situ-Comparison-of-Extreme-CME-Events.pdf",
@@ -78,7 +94,9 @@
     "poster": "14",
     "topic": "Topic 2",
     "title": "SunRunner3D MHD Simulations of Solar Cycle 25 Geomagnetic Storms Heliospheric Propagation and In Situ Comparison of Extreme CME Events",
-    "authors": "Diaz Figueroa Elton Everardo"
+    "authors": "Diaz Figueroa Elton Everardo",
+    "zulipTopic": "P14 Diaz: SunRunner3D MHD Simulations of Solar Cycle 25…",
+    "zulipTopicHash": "P14.20Diaz.3A.20SunRunner3D.20MHD.20Simulations.20of.20Solar.20Cycle.2025.E2.80.A6"
   },
   {
     "file": "P16_T3_Dobbing-Ben_Development-of-a-Novel-Sensor-for-Measuring-Electron-Energisation-in-Space-Plasmas.pdf",
@@ -87,7 +105,9 @@
     "poster": "16",
     "topic": "Topic 3",
     "title": "Development of a Novel Sensor for Measuring Electron Energisation in Space Plasmas",
-    "authors": "Dobbing Ben"
+    "authors": "Dobbing Ben",
+    "zulipTopic": "P16 Dobbing: Development of a Novel Sensor for Measuring…",
+    "zulipTopicHash": "P16.20Dobbing.3A.20Development.20of.20a.20Novel.20Sensor.20for.20Measuring.E2.80.A6"
   },
   {
     "file": "P17_T3_Dreyer-Joshua_Global-VTEC-maps-based-on-the-ROB-IONO-software-and-median-polish-kriging.pdf",
@@ -96,7 +116,9 @@
     "poster": "17",
     "topic": "Topic 3",
     "title": "Global VTEC maps based on the ROB IONO software and median polish kriging",
-    "authors": "Dreyer Joshua"
+    "authors": "Dreyer Joshua",
+    "zulipTopic": "P17 Dreyer: Global VTEC maps based on the ROB IONO…",
+    "zulipTopicHash": "P17.20Dreyer.3A.20Global.20VTEC.20maps.20based.20on.20the.20ROB.20IONO.E2.80.A6"
   },
   {
     "file": "P20_T1_Froment-Clara_Observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics.pdf",
@@ -105,7 +127,9 @@
     "poster": "20",
     "topic": "Topic 1",
     "title": "Observation of thermal non equilibrium cycles in a solar pseudo streamer and implications for the solar wind dynamics",
-    "authors": "Froment Clara"
+    "authors": "Froment Clara",
+    "zulipTopic": "P20 Froment: Observation of thermal non equilibrium cycles…",
+    "zulipTopicHash": "P20.20Froment.3A.20Observation.20of.20thermal.20non.20equilibrium.20cycles.E2.80.A6"
   },
   {
     "file": "P21_T2_Gajjar-Malhar_Solar-Shield-Physics-Informed-Machine-Learning-for-Space-Weather-Driven-LEO-Altitude-Deviation-Forecasting.pdf",
@@ -114,7 +138,9 @@
     "poster": "21",
     "topic": "Topic 2",
     "title": "Solar Shield Physics Informed Machine Learning for Space Weather Driven LEO Altitude Deviation Forecasting",
-    "authors": "Gajjar Malhar"
+    "authors": "Gajjar Malhar",
+    "zulipTopic": "P21 Gajjar: Solar Shield Physics Informed Machine Learning…",
+    "zulipTopicHash": "P21.20Gajjar.3A.20Solar.20Shield.20Physics.20Informed.20Machine.20Learning.E2.80.A6"
   },
   {
     "file": "P22_T1_George-Harriet_Bursty-bulk-flow-ionospheric-impacts-from-triple-conjunctive-observations.pdf",
@@ -123,7 +149,9 @@
     "poster": "22",
     "topic": "Topic 1",
     "title": "Bursty bulk flow ionospheric impacts from triple conjunctive observations",
-    "authors": "George Harriet"
+    "authors": "George Harriet",
+    "zulipTopic": "P22 George: Bursty bulk flow ionospheric impacts from…",
+    "zulipTopicHash": "P22.20George.3A.20Bursty.20bulk.20flow.20ionospheric.20impacts.20from.E2.80.A6"
   },
   {
     "file": "P24_T4_Gonidakis-Panagiotis_Solar-Structure-Segmentation-for-Onboard-AI-and-Solar-Science.pdf",
@@ -132,7 +160,9 @@
     "poster": "24",
     "topic": "Topic 4",
     "title": "Solar Structure Segmentation for Onboard AI and Solar Science",
-    "authors": "Gonidakis Panagiotis"
+    "authors": "Gonidakis Panagiotis",
+    "zulipTopic": "P24 Gonidakis: Solar Structure Segmentation for Onboard AI…",
+    "zulipTopicHash": "P24.20Gonidakis.3A.20Solar.20Structure.20Segmentation.20for.20Onboard.20AI.E2.80.A6"
   },
   {
     "file": "P25_T1_Grandin-Maxime_Leveraging-citizen-science-for-auroral-research-ARCTICS-and-beyond.pdf",
@@ -141,7 +171,9 @@
     "poster": "25",
     "topic": "Topic 1",
     "title": "Leveraging citizen science for auroral research ARCTICS and beyond",
-    "authors": "Grandin Maxime"
+    "authors": "Grandin Maxime",
+    "zulipTopic": "P25 Grandin: Leveraging citizen science for auroral…",
+    "zulipTopicHash": "P25.20Grandin.3A.20Leveraging.20citizen.20science.20for.20auroral.E2.80.A6"
   },
   {
     "file": "P26_T1_Hoppe-Theresa_Can-auroral-activity-have-an-effect-on-the-upper-mesospheric-temperature.pdf",
@@ -150,7 +182,9 @@
     "poster": "26",
     "topic": "Topic 1",
     "title": "Can auroral activity have an effect on the upper mesospheric temperature",
-    "authors": "Hoppe Theresa"
+    "authors": "Hoppe Theresa",
+    "zulipTopic": "P26 Hoppe: Can auroral activity have an effect on the…",
+    "zulipTopicHash": "P26.20Hoppe.3A.20Can.20auroral.20activity.20have.20an.20effect.20on.20the.E2.80.A6"
   },
   {
     "file": "P27_T4_Iochem-Pelin_Characterization-and-modeling-of-the-persistent-high-latitude-ionosphere-response-to-the-solar-wind.pdf",
@@ -159,7 +193,9 @@
     "poster": "27",
     "topic": "Topic 4",
     "title": "Characterization and modeling of the persistent high latitude ionosphere response to the solar wind",
-    "authors": "Iochem Pelin"
+    "authors": "Iochem Pelin",
+    "zulipTopic": "P27 Iochem: Characterization and modeling of the…",
+    "zulipTopicHash": "P27.20Iochem.3A.20Characterization.20and.20modeling.20of.20the.E2.80.A6"
   },
   {
     "file": "P29_T2_Kalkan-Mirkan-Yusuf_On-the-Prediction-of-Future-Geomagnetic-Activities-Using-Artificial-Intelligence-Techniques.pdf",
@@ -168,7 +204,9 @@
     "poster": "29",
     "topic": "Topic 2",
     "title": "On the Prediction of Future Geomagnetic Activities Using Artificial Intelligence Techniques",
-    "authors": "Kalkan Mirkan Yusuf"
+    "authors": "Kalkan Mirkan Yusuf",
+    "zulipTopic": "P29 Kalkan: On the Prediction of Future Geomagnetic…",
+    "zulipTopicHash": "P29.20Kalkan.3A.20On.20the.20Prediction.20of.20Future.20Geomagnetic.E2.80.A6"
   },
   {
     "file": "P30_T2_Ke-Kuan-Yu_FLAG-Forecasts-and-Long-term-probabilistic-data-Assimilative-prediction-of-the-effects-of-Geomagnetic-storms.pdf",
@@ -177,7 +215,9 @@
     "poster": "30",
     "topic": "Topic 2",
     "title": "FLAG Forecasts and Long term probabilistic data Assimilative prediction of the effects of Geomagnetic storms",
-    "authors": "Ke Kuan Yu"
+    "authors": "Ke Kuan Yu",
+    "zulipTopic": "P30 Ke: FLAG Forecasts and Long term probabilistic data…",
+    "zulipTopicHash": "P30.20Ke.3A.20FLAG.20Forecasts.20and.20Long.20term.20probabilistic.20data.E2.80.A6"
   },
   {
     "file": "P31_T1_Koller-Florian_Cross-Comparing-Collisionless-Shocks-in-the-Heliosphere-From-Planetary-Bow-Shocks-to-Interplanetary-Shocks.pdf",
@@ -186,7 +226,9 @@
     "poster": "31",
     "topic": "Topic 1",
     "title": "Cross Comparing Collisionless Shocks in the Heliosphere From Planetary Bow Shocks to Interplanetary Shocks",
-    "authors": "Koller Florian"
+    "authors": "Koller Florian",
+    "zulipTopic": "P31 Koller: Cross Comparing Collisionless Shocks in the…",
+    "zulipTopicHash": "P31.20Koller.3A.20Cross.20Comparing.20Collisionless.20Shocks.20in.20the.E2.80.A6"
   },
   {
     "file": "P32_T2_Lautenbach-Simon_Space-Weather-Research-Activities-at-Ruhr-University-Bochum.pdf",
@@ -195,7 +237,9 @@
     "poster": "32",
     "topic": "Topic 2",
     "title": "Space Weather Research Activities at Ruhr University Bochum",
-    "authors": "Lautenbach Simon"
+    "authors": "Lautenbach Simon",
+    "zulipTopic": "P32 Lautenbach: Space Weather Research Activities at Ruhr…",
+    "zulipTopicHash": "P32.20Lautenbach.3A.20Space.20Weather.20Research.20Activities.20at.20Ruhr.E2.80.A6"
   },
   {
     "file": "P33_T2_Legnaro-Edoardo_Physics-Driven-Machine-Learning-for-Operational-Space-Weather-Forecasting.pdf",
@@ -204,7 +248,9 @@
     "poster": "33",
     "topic": "Topic 2",
     "title": "Physics Driven Machine Learning for Operational Space Weather Forecasting",
-    "authors": "Legnaro Edoardo"
+    "authors": "Legnaro Edoardo",
+    "zulipTopic": "P33 Legnaro: Physics Driven Machine Learning for…",
+    "zulipTopicHash": "P33.20Legnaro.3A.20Physics.20Driven.20Machine.20Learning.20for.E2.80.A6"
   },
   {
     "file": "P34_T1_Lindberg-Martin_Comparison-of-Electron-Acceleration-at-Heliospheric-Shocks.pdf",
@@ -213,7 +259,9 @@
     "poster": "34",
     "topic": "Topic 1",
     "title": "Comparison of Electron Acceleration at Heliospheric Shocks",
-    "authors": "Lindberg Martin"
+    "authors": "Lindberg Martin",
+    "zulipTopic": "P34 Lindberg: Comparison of Electron Acceleration at…",
+    "zulipTopicHash": "P34.20Lindberg.3A.20Comparison.20of.20Electron.20Acceleration.20at.E2.80.A6"
   },
   {
     "file": "P40_T4_Nagainis-Kristers_From-Corona-to-Community-The-EGU-LUNEX-2026-Eclipse-Campaign-in-Spain.pdf",
@@ -222,7 +270,9 @@
     "poster": "40",
     "topic": "Topic 4",
     "title": "From Corona to Community The EGU LUNEX 2026 Eclipse Campaign in Spain",
-    "authors": "Nagainis Kristers"
+    "authors": "Nagainis Kristers",
+    "zulipTopic": "P40 Nagainis: From Corona to Community The EGU LUNEX 2026…",
+    "zulipTopicHash": "P40.20Nagainis.3A.20From.20Corona.20to.20Community.20The.20EGU.20LUNEX.202026.E2.80.A6"
   },
   {
     "file": "P44_T1_Rausch-Jakob_Satellite-based-airglow-aurora-observations-during-the-April-2023-geomagnetic-storm.pdf",
@@ -231,7 +281,9 @@
     "poster": "44",
     "topic": "Topic 1",
     "title": "Satellite based airglow aurora observations during the April 2023 geomagnetic storm",
-    "authors": "Rausch Jakob"
+    "authors": "Rausch Jakob",
+    "zulipTopic": "P44 Rausch: Satellite based airglow aurora observations…",
+    "zulipTopicHash": "P44.20Rausch.3A.20Satellite.20based.20airglow.20aurora.20observations.E2.80.A6"
   },
   {
     "file": "P45_T3_Ravishankar-Snehasri_Supervised-Learning-Based-Approach-for-Predicting-Solar-Activity-in-the-Temporal-Domain.pdf",
@@ -240,7 +292,9 @@
     "poster": "45",
     "topic": "Topic 3",
     "title": "Supervised Learning Based Approach for Predicting Solar Activity in the Temporal Domain",
-    "authors": "Ravishankar Snehasri"
+    "authors": "Ravishankar Snehasri",
+    "zulipTopic": "P45 Ravishankar: Supervised Learning Based Approach for…",
+    "zulipTopicHash": "P45.20Ravishankar.3A.20Supervised.20Learning.20Based.20Approach.20for.E2.80.A6"
   },
   {
     "file": "P47_T4_Rezeau-Laurence_The-GHG-footprint-of-an-experimental-laboratory.pdf",
@@ -249,7 +303,9 @@
     "poster": "47",
     "topic": "Topic 4",
     "title": "The GHG footprint of an experimental laboratory",
-    "authors": "Rezeau Laurence"
+    "authors": "Rezeau Laurence",
+    "zulipTopic": "P47 Rezeau: The GHG footprint of an experimental laboratory",
+    "zulipTopicHash": "P47.20Rezeau.3A.20The.20GHG.20footprint.20of.20an.20experimental.20laboratory"
   },
   {
     "file": "P48_T3_Smith-Ashley_ESA-Swarm-products-tools-and-services-supporting-open-science.pdf",
@@ -258,7 +314,9 @@
     "poster": "48",
     "topic": "Topic 3",
     "title": "ESA Swarm products tools and services supporting open science",
-    "authors": "Smith Ashley"
+    "authors": "Smith Ashley",
+    "zulipTopic": "P48 Smith: ESA Swarm products tools and services…",
+    "zulipTopicHash": "P48.20Smith.3A.20ESA.20Swarm.20products.20tools.20and.20services.E2.80.A6"
   },
   {
     "file": "P49_T4_Stangalini-Marco_Towards-an-Interoperable-Framework-for-Solar-and-Heliospheric-CubeSat-Missions-SOC-Integration-and-Data-Standardization.pdf",
@@ -267,7 +325,9 @@
     "poster": "49",
     "topic": "Topic 4",
     "title": "Towards an Interoperable Framework for Solar and Heliospheric CubeSat Missions SOC Integration and Data Standardization",
-    "authors": "Stangalini Marco"
+    "authors": "Stangalini Marco",
+    "zulipTopic": "P49 Stangalini: Towards an Interoperable Framework for…",
+    "zulipTopicHash": "P49.20Stangalini.3A.20Towards.20an.20Interoperable.20Framework.20for.E2.80.A6"
   },
   {
     "file": "P51_T1_Swaczyna-Pawel_Between-Space-Physics-and-Astrophysics-The-Subparsec-Structure-of-the-Local-Interstellar-Medium.pdf",
@@ -276,7 +336,9 @@
     "poster": "51",
     "topic": "Topic 1",
     "title": "Between Space Physics and Astrophysics The Subparsec Structure of the Local Interstellar Medium",
-    "authors": "Swaczyna Pawel"
+    "authors": "Swaczyna Pawel",
+    "zulipTopic": "P51 Swaczyna: Between Space Physics and Astrophysics The…",
+    "zulipTopicHash": "P51.20Swaczyna.3A.20Between.20Space.20Physics.20and.20Astrophysics.20The.E2.80.A6"
   },
   {
     "file": "P53_T4_Vanlommel-Petra_Polar-exploration-an-exceptional-journey-Story-telling-as-an-engaging-tool.pdf",
@@ -285,7 +347,9 @@
     "poster": "53",
     "topic": "Topic 4",
     "title": "Polar exploration an exceptional journey Story telling as an engaging tool",
-    "authors": "Vanlommel Petra"
+    "authors": "Vanlommel Petra",
+    "zulipTopic": "P53 Vanlommel: Polar exploration an exceptional journey…",
+    "zulipTopicHash": "P53.20Vanlommel.3A.20Polar.20exploration.20an.20exceptional.20journey.E2.80.A6"
   },
   {
     "file": "P54_T3_Wang-Dedong_Study-of-Energetic-Particle-Precipitation-and-Atmospheric-Impacts-SEEP-An-ESA-New-Earth-Observation-Mission-Idea-NEOMI.pdf",
@@ -294,7 +358,9 @@
     "poster": "54",
     "topic": "Topic 3",
     "title": "Study of Energetic Particle Precipitation and Atmospheric Impacts SEEP An ESA New Earth Observation Mission Idea NEOMI",
-    "authors": "Wang Dedong"
+    "authors": "Wang Dedong",
+    "zulipTopic": "P54 Wang: Study of Energetic Particle Precipitation and…",
+    "zulipTopicHash": "P54.20Wang.3A.20Study.20of.20Energetic.20Particle.20Precipitation.20and.E2.80.A6"
   },
   {
     "file": "P55_T2_Waters-Cara_Bridging-Scales-in-the-Solar-Wind-Linking-Bulk-Plasma-States-to-Turbulence-Regimes-Using-Unsupervised-Machine-Learning.pdf",
@@ -303,7 +369,9 @@
     "poster": "55",
     "topic": "Topic 2",
     "title": "Bridging Scales in the Solar Wind Linking Bulk Plasma States to Turbulence Regimes Using Unsupervised Machine Learning",
-    "authors": "Waters Cara"
+    "authors": "Waters Cara",
+    "zulipTopic": "P55 Waters: Bridging Scales in the Solar Wind Linking Bulk…",
+    "zulipTopicHash": "P55.20Waters.3A.20Bridging.20Scales.20in.20the.20Solar.20Wind.20Linking.20Bulk.E2.80.A6"
   },
   {
     "file": "P56_T3_Das-Pritam_CME-Kinematics-with-Optical-Flow-Multi-Coronagraph-Insights-into-Internal-Velocity-Dispersion.pdf",
@@ -312,7 +380,9 @@
     "poster": "56",
     "topic": "Topic 3",
     "title": "CME Kinematics with Optical Flow Multi Coronagraph Insights into Internal Velocity Dispersion",
-    "authors": "Das Pritam"
+    "authors": "Das Pritam",
+    "zulipTopic": "P56 Das: CME Kinematics with Optical Flow Multi…",
+    "zulipTopicHash": "P56.20Das.3A.20CME.20Kinematics.20with.20Optical.20Flow.20Multi.E2.80.A6"
   },
   {
     "file": "P57_T2_Dimitrakoula-Adamantia_Physics-based-modelling-of-radial-diffusion-in-the-outer-Van-Allen-belt.pdf",
@@ -321,7 +391,9 @@
     "poster": "57",
     "topic": "Topic 2",
     "title": "Physics based modelling of radial diffusion in the outer Van Allen belt",
-    "authors": "Dimitrakoula Adamantia"
+    "authors": "Dimitrakoula Adamantia",
+    "zulipTopic": "P57 Dimitrakoula: Physics based modelling of radial…",
+    "zulipTopicHash": "P57.20Dimitrakoula.3A.20Physics.20based.20modelling.20of.20radial.E2.80.A6"
   },
   {
     "file": "P58_T4_Dovles-Agapitos_Application-of-the-Kennel-Petschek-Limit-to-Electron-Distributions-in-Jupiters-Inner-Magnetosphere.pdf",
@@ -330,7 +402,9 @@
     "poster": "58",
     "topic": "Topic 4",
     "title": "Application of the Kennel Petschek Limit to Electron Distributions in Jupiters Inner Magnetosphere",
-    "authors": "Dovles Agapitos"
+    "authors": "Dovles Agapitos",
+    "zulipTopic": "P58 Dovles: Application of the Kennel Petschek Limit to…",
+    "zulipTopicHash": "P58.20Dovles.3A.20Application.20of.20the.20Kennel.20Petschek.20Limit.20to.E2.80.A6"
   },
   {
     "file": "P59_T2_Guarnaccia-Federica_The-SMOS-mission-A-New-Eye-on-Solar-Radio-Emissions.pdf",
@@ -339,7 +413,9 @@
     "poster": "59",
     "topic": "Topic 2",
     "title": "The SMOS mission A New Eye on Solar Radio Emissions",
-    "authors": "Guarnaccia Federica"
+    "authors": "Guarnaccia Federica",
+    "zulipTopic": "P59 Guarnaccia: The SMOS mission A New Eye on Solar Radio…",
+    "zulipTopicHash": "P59.20Guarnaccia.3A.20The.20SMOS.20mission.20A.20New.20Eye.20on.20Solar.20Radio.E2.80.A6"
   },
   {
     "file": "P60_T3_Heilig-Balazs_Subauroral-plasma-boundaries-and-associated-magnetospheric-phenomena.pdf",
@@ -348,7 +424,9 @@
     "poster": "60",
     "topic": "Topic 3",
     "title": "Subauroral plasma boundaries and associated magnetospheric phenomena",
-    "authors": "Heilig Balazs"
+    "authors": "Heilig Balazs",
+    "zulipTopic": "P60 Heilig: Subauroral plasma boundaries and associated…",
+    "zulipTopicHash": "P60.20Heilig.3A.20Subauroral.20plasma.20boundaries.20and.20associated.E2.80.A6"
   },
   {
     "file": "P61_T3_Mackovjak-Simon_Cleanroom-facilities-for-Heliophysics-missions.pdf",
@@ -357,7 +435,9 @@
     "poster": "61",
     "topic": "Topic 3",
     "title": "Cleanroom facilities for Heliophysics missions",
-    "authors": "Mackovjak Simon"
+    "authors": "Mackovjak Simon",
+    "zulipTopic": "P61 Mackovjak: Cleanroom facilities for Heliophysics…",
+    "zulipTopicHash": "P61.20Mackovjak.3A.20Cleanroom.20facilities.20for.20Heliophysics.E2.80.A6"
   },
   {
     "file": "P63_T3_Nakopoulou-Eirini_Comparison-between-Geomagnetic-Storms-of-Different-Intensities-and-their-Correlation-with-Magnetospheric-Substorms.pdf",
@@ -366,7 +446,9 @@
     "poster": "63",
     "topic": "Topic 3",
     "title": "Comparison between Geomagnetic Storms of Different Intensities and their Correlation with Magnetospheric Substorms",
-    "authors": "Nakopoulou Eirini"
+    "authors": "Nakopoulou Eirini",
+    "zulipTopic": "P63 Nakopoulou: Comparison between Geomagnetic Storms of…",
+    "zulipTopicHash": "P63.20Nakopoulou.3A.20Comparison.20between.20Geomagnetic.20Storms.20of.E2.80.A6"
   },
   {
     "file": "P64_T3_Papakonstantinou-Daniil_Web-application-for-retrospective-geomagnetic-storm-detection-main-phase-analysis-and-identification-of-solar-wind-influence-on-storm-intensity.pdf",
@@ -375,7 +457,9 @@
     "poster": "64",
     "topic": "Topic 3",
     "title": "Web application for retrospective geomagnetic storm detection main phase analysis and identification of solar wind influence on storm intensity",
-    "authors": "Papakonstantinou Daniil"
+    "authors": "Papakonstantinou Daniil",
+    "zulipTopic": "P64 Papakonstantinou: Web application for retrospective…",
+    "zulipTopicHash": "P64.20Papakonstantinou.3A.20Web.20application.20for.20retrospective.E2.80.A6"
   },
   {
     "file": "P65_T1_Schmieder-Brigitte_Total-Eclipse-on-August-12-2026-observations-in-Spain-in-space-and-predictions-with-COCONUT-and-others.pdf",
@@ -384,7 +468,9 @@
     "poster": "65",
     "topic": "Topic 1",
     "title": "Total Eclipse on August 12 2026 observations in Spain in space and predictions with COCONUT and others",
-    "authors": "Schmieder Brigitte"
+    "authors": "Schmieder Brigitte",
+    "zulipTopic": "P65 Schmieder: Total Eclipse on August 12 2026…",
+    "zulipTopicHash": "P65.20Schmieder.3A.20Total.20Eclipse.20on.20August.2012.202026.E2.80.A6"
   },
   {
     "file": "P66_T3_Thanasoula-Konstantina_Calculation-of-Radial-Diffusion-Coefficients-using-combined-data-from-RBSP-and-THEMIS-missions.pdf",
@@ -393,7 +479,9 @@
     "poster": "66",
     "topic": "Topic 3",
     "title": "Calculation of Radial Diffusion Coefficients using combined data from RBSP and THEMIS missions",
-    "authors": "Thanasoula Konstantina"
+    "authors": "Thanasoula Konstantina",
+    "zulipTopic": "P66 Thanasoula: Calculation of Radial Diffusion…",
+    "zulipTopicHash": "P66.20Thanasoula.3A.20Calculation.20of.20Radial.20Diffusion.E2.80.A6"
   },
   {
     "file": "P67_T2_Tomasik-Mate_MOSIAC-3D-Empirical-Model-of-the-Midlatitude-Ionospheric-Trough-Based-on-Swarm-Observations.pdf",
@@ -402,7 +490,9 @@
     "poster": "67",
     "topic": "Topic 2",
     "title": "MOSIAC 3D Empirical Model of the Midlatitude Ionospheric Trough Based on Swarm Observations",
-    "authors": "Tomasik Mate"
+    "authors": "Tomasik Mate",
+    "zulipTopic": "P67 Tomasik: MOSIAC 3D Empirical Model of the Midlatitude…",
+    "zulipTopicHash": "P67.20Tomasik.3A.20MOSIAC.203D.20Empirical.20Model.20of.20the.20Midlatitude.E2.80.A6"
   },
   {
     "file": "P68_T3_Chrysaphi-Nicolina_Bridging-Gaps-in-Heliospheric-Radio-Data-Analyses.pdf",
@@ -411,7 +501,9 @@
     "poster": "68",
     "topic": "Topic 3",
     "title": "Bridging Gaps in Heliospheric Radio Data Analyses",
-    "authors": "Chrysaphi Nicolina"
+    "authors": "Chrysaphi Nicolina",
+    "zulipTopic": "P68 Chrysaphi: Bridging Gaps in Heliospheric Radio Data…",
+    "zulipTopicHash": "P68.20Chrysaphi.3A.20Bridging.20Gaps.20in.20Heliospheric.20Radio.20Data.E2.80.A6"
   },
   {
     "file": "P69_T1_Lalti-Ahmad_Solar-Magnetic-Configuration-Control-over-Radiation-Belt-Electrons.pdf",
@@ -420,6 +512,8 @@
     "poster": "69",
     "topic": "Topic 1",
     "title": "Solar Magnetic Configuration Control over Radiation Belt Electrons",
-    "authors": "Lalti Ahmad"
+    "authors": "Lalti Ahmad",
+    "zulipTopic": "P69 Lalti: Solar Magnetic Configuration Control over…",
+    "zulipTopicHash": "P69.20Lalti.3A.20Solar.20Magnetic.20Configuration.20Control.20over.E2.80.A6"
   }
 ]

@@ -15,3 +15,6 @@ node_modules/
 # posters temp folders
 /posters_raw
 /posters_2023
+
+# Zulip bot
+.zuliprc

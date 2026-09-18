@@ -32,6 +32,15 @@ disableKinds = ["taxonomy", "term"]
   noFees = true
   posterFormat = "A1 portrait"
 
+  # Online discussion: each poster card links to its own topic in a Zulip
+  # channel (topic names are generated into data/posters.json by
+  # `npm run posters`). channelId is the number in the channel's settings URL
+  # (…/#channels/<id>/…); the "Discuss" links are hidden until it is set.
+  [params.zulip]
+    org = "https://euro-helio.zulipchat.com"
+    channel = "2026: Posters"
+    channelId = "635939"
+
   # Authoritative pages stay on the ESA cosmos portal — we link back to them.
   [params.links]
     esaHome = "https://www.cosmos.esa.int/web/esa-heliophysics/heliophysics-in-europe-2026"
@@ -41,6 +50,8 @@ disableKinds = ["taxonomy", "term"]
     venue = "https://www.cosmos.esa.int/web/esa-heliophysics/venue-and-transport"
     conduct = "https://www.cosmos.esa.int/web/esa-heliophysics/code-of-conduct1"
     committee = "https://www.cosmos.esa.int/web/esa-heliophysics/soc-loc1"
+    # Live chat during the poster session; the gallery note links here when set.
+    webex = ""
 
 [markup]
   [markup.goldmark.renderer]
