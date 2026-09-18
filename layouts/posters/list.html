@@ -40,10 +40,10 @@
         <li class="poster-card"
             data-search="{{ lower (printf "%s %s" .title .authors) }}"
             data-topic="{{ .topic }}">
-          <a class="poster-link" href="{{ (printf "/posters/pdf/%s" .file) | relURL }}" target="_blank" rel="noopener">
+          <a class="poster-link" href="{{ (printf "posters/pdf/%s" .file) | relURL }}" target="_blank" rel="noopener">
             <span class="poster-thumb-wrap">
               <img class="poster-thumb" loading="lazy" decoding="async"
-                   src="{{ (printf "/posters/thumbs/%s" .thumb) | relURL }}"
+                   src="{{ (printf "posters/thumbs/%s" .thumb) | relURL }}"
                    alt="First page of poster: {{ .title }}">
             </span>
             <span class="poster-meta">

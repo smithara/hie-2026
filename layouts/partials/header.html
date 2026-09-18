@@ -1,7 +1,7 @@
 {{- $links := .Site.Params.links -}}
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{{ "/" | relURL }}">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
       <span class="brand-mark" aria-hidden="true">☀</span>
       <span class="brand-text">{{ .Site.Params.shortTitle }}</span>
     </a>
@@ -10,8 +10,8 @@
       <span></span><span></span><span></span>
     </label>
     <nav class="site-nav" aria-label="Primary">
-      <a href="{{ "/" | relURL }}">Home</a>
-      <a href="{{ "/posters/" | relURL }}">Posters</a>
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
+      <a href="{{ "posters/" | relURL }}">Posters</a>
       <a href="{{ $links.schedule }}" target="_blank" rel="noopener">Schedule&nbsp;↗</a>
       <span class="btn btn-sm is-disabled" aria-disabled="true">Register&nbsp;↗</span>
     </nav>

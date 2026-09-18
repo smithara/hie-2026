@@ -129,6 +129,17 @@ netlify deploy --prod --dir=public
 After the first deploy, set your real domain in `hugo.toml` (`baseURL`) so
 absolute URLs (sitemap, Open Graph) are correct, then redeploy.
 
+## Deploying to GitHub Pages
+
+`.github/workflows/hugo.yml` builds the site with Hugo and publishes it to GitHub
+Pages on every push to `main` (or manually via *Actions → Deploy Hugo site to
+GitHub Pages → Run workflow*). It overrides `baseURL` at build time to match the
+Pages URL, so it works regardless of the `baseURL` set in `hugo.toml` for Netlify.
+
+One-time setup: in the repo settings, go to **Settings → Pages** and set
+**Source** to **GitHub Actions**. The workflow needs no further configuration —
+it reuses the same Hugo version pinned in `netlify.toml`.
+
 ### ⚠️ A note on poster file sizes
 
 A1 poster PDFs can be large (often 5–50 MB each). Sixty of them can add up to well

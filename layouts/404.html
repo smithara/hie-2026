@@ -2,8 +2,8 @@
 <section class="page-head">
   <div class="wrap error-page">
     <h1>Page not found</h1>
-    <p>That page doesn’t exist. Try the <a href="{{ "/" | relURL }}">home page</a>
-    or the <a href="{{ "/posters/" | relURL }}">poster gallery</a>.</p>
+    <p>That page doesn’t exist. Try the <a href="{{ .Site.Home.RelPermalink }}">home page</a>
+    or the <a href="{{ "posters/" | relURL }}">poster gallery</a>.</p>
   </div>
 </section>
 {{ end }}
