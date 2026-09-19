@@ -1,5 +1,16 @@
 [
   {
+    "file": "P1_T4_Agudelo-Rueda-Jeffersson-Andres_Anomalous-Electric-Fields-in-Earths-Turbulent-Magnetosheath-Insights-From-3D-Hybrid-Simulations.pdf",
+    "thumb": "p1-t4-agudelo-rueda-jeffersson-andres-anomalous-electric-fields-in-earths-turbulent-magnetosheath-insights-from-3d-hybrid-simulations.jpg",
+    "slug": "p1-t4-agudelo-rueda-jeffersson-andres-anomalous-electric-fields-in-earths-turbulent-magnetosheath-insights-from-3d-hybrid-simulations",
+    "poster": "1",
+    "topic": "Topic 4",
+    "title": "Anomalous Electric Fields in Earths Turbulent Magnetosheath Insights From 3D Hybrid Simulations",
+    "authors": "Jeffersson Andres Agudelo Rueda",
+    "zulipTopic": "P1 Rueda: Anomalous Electric Fields in Earths Turbulent…",
+    "zulipTopicHash": "P1.20Rueda.3A.20Anomalous.20Electric.20Fields.20in.20Earths.20Turbulent.E2.80.A6"
+  },
+  {
     "file": "P2_T4_Asvestari-Eleanna_Survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community.pdf",
     "thumb": "p2-t4-asvestari-eleanna-survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community.jpg",
     "slug": "p2-t4-asvestari-eleanna-survey-on-the-careers-and-wellbeing-of-postdoctoral-and-non-permanent-researchers-in-the-heliophysics-community",
@@ -97,6 +108,17 @@
     "authors": "Elton Everardo Diaz Figueroa",
     "zulipTopic": "P14 Figueroa: SunRunner3D MHD Simulations of Solar Cycle…",
     "zulipTopicHash": "P14.20Figueroa.3A.20SunRunner3D.20MHD.20Simulations.20of.20Solar.20Cycle.E2.80.A6"
+  },
+  {
+    "file": "P15_T2_Dineva-Ekaterina_From-Magnetic-Complexity-to-Latent-Geometry-Contrastive-Beta-VAEs-for-Solar-Flare-Forecasting.pdf",
+    "thumb": "p15-t2-dineva-ekaterina-from-magnetic-complexity-to-latent-geometry-contrastive-beta-vaes-for-solar-flare-forecasting.jpg",
+    "slug": "p15-t2-dineva-ekaterina-from-magnetic-complexity-to-latent-geometry-contrastive-beta-vaes-for-solar-flare-forecasting",
+    "poster": "15",
+    "topic": "Topic 2",
+    "title": "From Magnetic Complexity to Latent Geometry Contrastive Beta VAEs for Solar Flare Forecasting",
+    "authors": "Ekaterina Dineva",
+    "zulipTopic": "P15 Dineva: From Magnetic Complexity to Latent Geometry…",
+    "zulipTopicHash": "P15.20Dineva.3A.20From.20Magnetic.20Complexity.20to.20Latent.20Geometry.E2.80.A6"
   },
   {
     "file": "P16_T3_Dobbing-Ben_Development-of-a-Novel-Sensor-for-Measuring-Electron-Energisation-in-Space-Plasmas.pdf",
@@ -286,6 +308,28 @@
     "zulipTopicHash": "P36.20Marcucci.3A.20THE.20HELIOSPHERIC.20PIONEER.20FOR.20SOLAR.20AND.E2.80.A6"
   },
   {
+    "file": "P37_T2_Marghitu-Octav_Ionospheric-closure-of-field-aligned-currents-and-its-space-weather-effects.pdf",
+    "thumb": "p37-t2-marghitu-octav-ionospheric-closure-of-field-aligned-currents-and-its-space-weather-effects.jpg",
+    "slug": "p37-t2-marghitu-octav-ionospheric-closure-of-field-aligned-currents-and-its-space-weather-effects",
+    "poster": "37",
+    "topic": "Topic 2",
+    "title": "Ionospheric closure of field aligned currents and its space weather effects",
+    "authors": "Octav Marghitu",
+    "zulipTopic": "P37 Marghitu: Ionospheric closure of field aligned…",
+    "zulipTopicHash": "P37.20Marghitu.3A.20Ionospheric.20closure.20of.20field.20aligned.E2.80.A6"
+  },
+  {
+    "file": "P39_T1_Miloshevich-George_Physics-informed-neural-electron-closures-for-multiscale-heliospheric-plasma-modelling.pdf",
+    "thumb": "p39-t1-miloshevich-george-physics-informed-neural-electron-closures-for-multiscale-heliospheric-plasma-modelling.jpg",
+    "slug": "p39-t1-miloshevich-george-physics-informed-neural-electron-closures-for-multiscale-heliospheric-plasma-modelling",
+    "poster": "39",
+    "topic": "Topic 1",
+    "title": "Physics informed neural electron closures for multiscale heliospheric plasma modelling",
+    "authors": "George Miloshevich",
+    "zulipTopic": "P39 Miloshevich: Physics informed neural electron closures…",
+    "zulipTopicHash": "P39.20Miloshevich.3A.20Physics.20informed.20neural.20electron.20closures.E2.80.A6"
+  },
+  {
     "file": "P40_T4_Nagainis-Kristers_From-Corona-to-Community-The-EGU-LUNEX-2026-Eclipse-Campaign-in-Spain.pdf",
     "thumb": "p40-t4-nagainis-kristers-from-corona-to-community-the-egu-lunex-2026-eclipse-campaign-in-spain.jpg",
     "slug": "p40-t4-nagainis-kristers-from-corona-to-community-the-egu-lunex-2026-eclipse-campaign-in-spain",
@@ -363,6 +407,17 @@
     "zulipTopicHash": "P49.20Stangalini.3A.20Towards.20an.20Interoperable.20Framework.20for.E2.80.A6"
   },
   {
+    "file": "P50_T3_Stawarz-Julia_DREAM-A-Small-Satellite-Mission-Concept-for-Probing-Electron-Scale-Energisation-Processes.pdf",
+    "thumb": "p50-t3-stawarz-julia-dream-a-small-satellite-mission-concept-for-probing-electron-scale-energisation-processes.jpg",
+    "slug": "p50-t3-stawarz-julia-dream-a-small-satellite-mission-concept-for-probing-electron-scale-energisation-processes",
+    "poster": "50",
+    "topic": "Topic 3",
+    "title": "DREAM A Small Satellite Mission Concept for Probing Electron Scale Energisation Processes",
+    "authors": "Julia Stawarz",
+    "zulipTopic": "P50 Stawarz: DREAM A Small Satellite Mission Concept for…",
+    "zulipTopicHash": "P50.20Stawarz.3A.20DREAM.20A.20Small.20Satellite.20Mission.20Concept.20for.E2.80.A6"
+  },
+  {
     "file": "P51_T1_Swaczyna-Pawel_Between-Space-Physics-and-Astrophysics-The-Subparsec-Structure-of-the-Local-Interstellar-Medium.pdf",
     "thumb": "p51-t1-swaczyna-pawel-between-space-physics-and-astrophysics-the-subparsec-structure-of-the-local-interstellar-medium.jpg",
     "slug": "p51-t1-swaczyna-pawel-between-space-physics-and-astrophysics-the-subparsec-structure-of-the-local-interstellar-medium",
@@ -372,6 +427,17 @@
     "authors": "Pawel Swaczyna",
     "zulipTopic": "P51 Swaczyna: Between Space Physics and Astrophysics The…",
     "zulipTopicHash": "P51.20Swaczyna.3A.20Between.20Space.20Physics.20and.20Astrophysics.20The.E2.80.A6"
+  },
+  {
+    "file": "P52_T3_Tzamali-Myrto_Calibrated-daily-forecasts-of-the-107-cm-solar-radio-flux-to-27-days-ahead.pdf",
+    "thumb": "p52-t3-tzamali-myrto-calibrated-daily-forecasts-of-the-107-cm-solar-radio-flux-to-27-days-ahead.jpg",
+    "slug": "p52-t3-tzamali-myrto-calibrated-daily-forecasts-of-the-107-cm-solar-radio-flux-to-27-days-ahead",
+    "poster": "52",
+    "topic": "Topic 3",
+    "title": "Calibrated daily forecasts of the 107 cm solar radio flux to 27 days ahead",
+    "authors": "Myrto Tzamali",
+    "zulipTopic": "P52 Tzamali: Calibrated daily forecasts of the 107 cm…",
+    "zulipTopicHash": "P52.20Tzamali.3A.20Calibrated.20daily.20forecasts.20of.20the.20107.20cm.E2.80.A6"
   },
   {
     "file": "P53_T4_Vanlommel-Petra_Polar-exploration-an-exceptional-journey-Story-telling-as-an-engaging-tool.pdf",
