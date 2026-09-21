@@ -154,6 +154,17 @@
     "zulipTopicHash": "P17.20Dreyer.3A.20Global.20VTEC.20maps.20based.20on.20the.20ROB.20IONO.E2.80.A6"
   },
   {
+    "file": "P19_T3_Foing-Bernard_The-LUNEX-EGU-COSPAR-Total-Solar-Eclipse-2026-Campaign-Multi-Site-Ground-Observations-and-Space-Based-Cross-Cutting-Heliophysics-Science.pdf",
+    "thumb": "p19-t3-foing-bernard-the-lunex-egu-cospar-total-solar-eclipse-2026-campaign-multi-site-ground-observations-and-space-based-cross-cutting-heliophysics-science.jpg",
+    "slug": "p19-t3-foing-bernard-the-lunex-egu-cospar-total-solar-eclipse-2026-campaign-multi-site-ground-observations-and-space-based-cross-cutting-heliophysics-science",
+    "poster": "19",
+    "topic": "Topic 3",
+    "title": "The LUNEX EGU COSPAR Total Solar Eclipse 2026 Campaign Multi Site Ground Observations and Space Based Cross Cutting Heliophysics Science",
+    "authors": "Bernard Foing",
+    "zulipTopic": "P19 Foing: The LUNEX EGU COSPAR Total Solar Eclipse 2026…",
+    "zulipTopicHash": "P19.20Foing.3A.20The.20LUNEX.20EGU.20COSPAR.20Total.20Solar.20Eclipse.202026.E2.80.A6"
+  },
+  {
     "file": "P20_T1_Froment-Clara_Observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics.pdf",
     "thumb": "p20-t1-froment-clara-observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics.jpg",
     "slug": "p20-t1-froment-clara-observation-of-thermal-non-equilibrium-cycles-in-a-solar-pseudo-streamer-and-implications-for-the-solar-wind-dynamics",
@@ -185,6 +196,17 @@
     "authors": "Harriet George",
     "zulipTopic": "P22 George: Bursty bulk flow ionospheric impacts from…",
     "zulipTopicHash": "P22.20George.3A.20Bursty.20bulk.20flow.20ionospheric.20impacts.20from.E2.80.A6"
+  },
+  {
+    "file": "P23_T1_Goetz-Charlotte_How-I-learned-to-tolerate-the-telescope-Remote-observations-of-ion-tails-of-comets.pdf",
+    "thumb": "p23-t1-goetz-charlotte-how-i-learned-to-tolerate-the-telescope-remote-observations-of-ion-tails-of-comets.jpg",
+    "slug": "p23-t1-goetz-charlotte-how-i-learned-to-tolerate-the-telescope-remote-observations-of-ion-tails-of-comets",
+    "poster": "23",
+    "topic": "Topic 1",
+    "title": "How I learned to tolerate the telescope Remote observations of ion tails of comets",
+    "authors": "Charlotte Goetz",
+    "zulipTopic": "P23 Goetz: How I learned to tolerate the telescope Remote…",
+    "zulipTopicHash": "P23.20Goetz.3A.20How.20I.20learned.20to.20tolerate.20the.20telescope.20Remote.E2.80.A6"
   },
   {
     "file": "P24_T4_Gonidakis-Panagiotis_Solar-Structure-Segmentation-for-Onboard-AI-and-Solar-Science.pdf",
@@ -350,6 +372,28 @@
     "authors": "Kristers Nagainis",
     "zulipTopic": "P40 Nagainis: From Corona to Community The EGU LUNEX 2026…",
     "zulipTopicHash": "P40.20Nagainis.3A.20From.20Corona.20to.20Community.20The.20EGU.20LUNEX.202026.E2.80.A6"
+  },
+  {
+    "file": "P42_T3_Quijia-Pilapana-Paulina_Characterising-reconnection-like-structures-in-Earths-turbulent-magnetosheath-using-unsupervised-machine-learning.pdf",
+    "thumb": "p42-t3-quijia-pilapana-paulina-characterising-reconnection-like-structures-in-earths-turbulent-magnetosheath-using-unsupervised-machine-learning.jpg",
+    "slug": "p42-t3-quijia-pilapana-paulina-characterising-reconnection-like-structures-in-earths-turbulent-magnetosheath-using-unsupervised-machine-learning",
+    "poster": "42",
+    "topic": "Topic 3",
+    "title": "Characterising reconnection like structures in Earths turbulent magnetosheath using unsupervised machine learning",
+    "authors": "Paulina Quijia Pilapana",
+    "zulipTopic": "P42 Pilapana: Characterising reconnection like structures…",
+    "zulipTopicHash": "P42.20Pilapana.3A.20Characterising.20reconnection.20like.20structures.E2.80.A6"
+  },
+  {
+    "file": "P43_T3_Rachmeler-Laurel_NOAAs-Heliophysics-Missions-and-Data.pdf",
+    "thumb": "p43-t3-rachmeler-laurel-noaas-heliophysics-missions-and-data.jpg",
+    "slug": "p43-t3-rachmeler-laurel-noaas-heliophysics-missions-and-data",
+    "poster": "43",
+    "topic": "Topic 3",
+    "title": "NOAAs Heliophysics Missions and Data",
+    "authors": "Laurel Rachmeler",
+    "zulipTopic": "P43 Rachmeler: NOAAs Heliophysics Missions and Data",
+    "zulipTopicHash": "P43.20Rachmeler.3A.20NOAAs.20Heliophysics.20Missions.20and.20Data"
   },
   {
     "file": "P44_T1_Rausch-Jakob_Satellite-based-airglow-aurora-observations-during-the-April-2023-geomagnetic-storm.pdf",
