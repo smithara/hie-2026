@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="wrap">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<div class="page-intro"><p>{{ . }}</p></div>{{ end }}
+  </div>
+</section>
+
+<section>
+  <div class="wrap summaries">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

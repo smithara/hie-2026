@@ -123,7 +123,7 @@ img { max-width: 100%; height: auto; display: block; }
 .brand-mark { color: var(--sun); font-size: 1.3em; }
 .brand-text { letter-spacing: -.01em; }
 .site-nav { display: flex; align-items: center; gap: 22px; }
-.site-nav a { color: var(--ink); text-decoration: none; font-weight: 500; }
+.site-nav a { color: var(--ink); text-decoration: none; font-weight: 500; white-space: nowrap; }
 .site-nav a:not(.btn):hover { color: var(--accent-link); }
 .nav-toggle, .nav-toggle-label { display: none; }
 
@@ -259,6 +259,45 @@ img { max-width: 100%; height: auto; display: block; }
 
 .no-results { text-align: center; color: var(--ink-soft); padding: 40px 0; font-size: 1.05rem; }
 
+/* ---- Summaries ------------------------------------------------------------ */
+.summaries { padding-block: 20px clamp(48px, 8vw, 80px); }
+.summaries details {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 0 clamp(16px, 3vw, 28px); margin-bottom: 20px;
+}
+.summaries summary {
+  cursor: pointer; list-style: none; font-weight: 700; font-size: 1.2rem;
+  padding: 16px 0; display: flex; align-items: center; gap: .55em;
+}
+.summaries summary::-webkit-details-marker { display: none; }
+.summaries summary::before {
+  content: "▸"; color: var(--sun); transition: transform .15s ease; flex: none;
+}
+.summaries details[open] > summary::before { transform: rotate(90deg); }
+.summaries summary:focus-visible { outline: 2px solid var(--sun); outline-offset: 2px; border-radius: var(--radius-sm); }
+.summaries details[open] { padding-bottom: 8px; }
+.summaries details > :is(h3, p, ul, ol):first-of-type { margin-top: 0; }
+.summaries h3 { margin: .2em 0 .4em; font-size: 1.1rem; }
+.summaries .summary-sub {
+  box-shadow: none; border-color: var(--border); background: transparent;
+  border-radius: var(--radius-sm); padding-inline: 16px; margin: 0 0 14px;
+}
+.summaries .summary-sub summary { font-size: 1rem; padding: 12px 0; }
+.summaries ol { padding-left: 1.6em; }
+.summaries ol li { margin-bottom: .6em; }
+.q-votes, .q-done {
+  display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  text-transform: uppercase; padding: 1px 8px; border-radius: 999px; white-space: nowrap;
+  vertical-align: .1em; margin-left: .3em;
+}
+.q-votes { color: var(--ink-soft); background: rgba(120, 130, 150, .14); }
+.q-done { color: #1f7a45; background: rgba(46, 160, 90, .14); }
+@media (prefers-color-scheme: dark) { .q-done { color: #6fd19a; } }
+.summary-preview { display: block; max-width: 900px; margin: 8px 0 6px; }
+.summary-preview img { border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.summary-preview-sm { max-width: 420px; }
+.summary-preview-sm img { background: #fff; }
+
 /* ---- Empty state ---------------------------------------------------------- */
 .empty-state { text-align: center; padding: clamp(40px, 8vw, 80px) 20px; border: 1.5px dashed var(--border-strong); border-radius: var(--radius); }
 .empty-mark { font-size: 2.6rem; margin: 0 0 .2em; }
@@ -285,8 +324,8 @@ img { max-width: 100%; height: auto; display: block; }
   .keyinfo-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
-@media (max-width: 640px) {
-  body { font-size: 16px; }
+/* Collapse the nav into the hamburger menu before its items start to overflow. */
+@media (max-width: 760px) {
   .nav-toggle-label {
     display: flex; flex-direction: column; justify-content: center; gap: 5px;
     width: 42px; height: 38px; cursor: pointer; padding: 8px;
@@ -300,6 +339,9 @@ img { max-width: 100%; height: auto; display: block; }
   .site-nav a { padding: 12px 0; border-bottom: 1px solid var(--border); }
   .site-nav a.btn { text-align: center; margin-top: 10px; border: 1.5px solid transparent; }
   .nav-toggle:checked ~ .site-nav { display: flex; }
+}
+@media (max-width: 640px) {
+  body { font-size: 16px; }
   .keyinfo-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .gallery-count { margin: 0; width: 100%; }

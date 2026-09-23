@@ -26,8 +26,7 @@
       {{ end }}
       {{ if $zulipBase }}
       <p class="discuss-note">💬 Follow the <strong>Discuss on Zulip</strong> links to ask questions and discuss a poster
-      (<a href="{{ $zulipChannel }}" target="_blank" rel="noopener">{{ $zulip.channel }}</a> channel on the
-      <a href="{{ $zulip.org }}" target="_blank" rel="noopener">Heliophysics in Europe Zulip</a>),
+      (<a href="{{ $zulipChannel }}" target="_blank" rel="noopener">{{ $zulip.channel }}</a> channel on Zulip{{ with $zulip.invite }} - <a href="{{ . }}" target="_blank" rel="noopener">Register here</a>{{ end }}),
       or chat live in the {{ with .Site.Params.links.webex }}<a href="{{ . }}" target="_blank" rel="noopener">Webex breakout room</a>{{ else }}Webex breakout room{{ end }}.</p>
       {{ end }}
       {{- $topics := slice -}}

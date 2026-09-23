@@ -40,6 +40,8 @@ disableKinds = ["taxonomy", "term"]
     org = "https://euro-helio.zulipchat.com"
     channel = "2026: Posters"
     channelId = "635939"
+    # Invite link for joining the Zulip org; shown as "Register here" on the Posters page.
+    invite = "https://euro-helio.zulipchat.com/join/hmlndvfd4bi4uzpbskzrxeiv/"
 
   # Authoritative pages stay on the ESA cosmos portal — we link back to them.
   [params.links]
