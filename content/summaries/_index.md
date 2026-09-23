@@ -61,3 +61,31 @@ summarises which ideas came up across groups.
 </details>
 
 </details>
+
+<details class="summary-block">
+<summary>Session 4 — Sustainability</summary>
+
+**Objective:** Raise awareness of the environmental impact of our activities and explore ways to empower our community to make informed decisions. This session will address not only our carbon footprint, but also the broader issue of aligning the purpose of our research with the need to leave a sustainable world for future generations.
+
+💬 [Discuss on Zulip](https://euro-helio.zulipchat.com/#narrow/channel/636439-2026.3A-Session-4-Sustainability/topic//with/626034946)
+
+### Programme (preliminary)
+
+**Part 1: Review Talks** (1h max)
+
+- Maxime Grandin (FMI, Helsinki): *Space-sector activities and planetary boundaries: Where are we?*
+- Aurélie Marchaudon (IRAP, Toulouse – online): *Practical examples of sustainability initiatives that are currently implemented in France.*
+
+**Part 2: Round-Table Discussion** (1h max)
+
+Objective: Present a series of concrete examples and testimonies of how to address these sustainability issues, and provide the audience with an opportunity to interact on those questions.
+
+Format: 3-5 participants with live Q&A using tools such as Mentimeter.
+
+Key themes:
+
+- Address how to conduct future research more sustainably.
+- Highlighting actionable initiatives to provide constructive solutions.
+- Maintaining an authentic dialogue.
+
+</details>
