@@ -18,3 +18,6 @@ node_modules/
 
 # Zulip bot
 .zuliprc
+
+# Slides download/concat scratch (not part of the site build)
+/slides_raw
