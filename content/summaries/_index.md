@@ -1,6 +1,6 @@
 ---
 title: "Summaries"
-description: "Session summaries from ESLAB & Heliophysics in Europe #3: schedules, panel questions and group-discussion outputs."
+description: "Session summaries from ESLAB & Heliophysics in Europe"
 ---
 
 <details class="summary-block" open>
@@ -69,23 +69,42 @@ summarises which ideas came up across groups.
 
 💬 [Discuss on Zulip](https://euro-helio.zulipchat.com/#narrow/channel/636439-2026.3A-Session-4-Sustainability/topic//with/626034946)
 
-### Programme (preliminary)
+### Programme
 
-**Part 1: Review Talks** (1h max)
+**Part 1: Review Talks** (1h)
 
 - Maxime Grandin (FMI, Helsinki): *Space-sector activities and planetary boundaries: Where are we?*
 - Aurélie Marchaudon (IRAP, Toulouse – online): *Practical examples of sustainability initiatives that are currently implemented in France.*
 
-**Part 2: Round-Table Discussion** (1h max)
+**Part 2: Round-Table Discussion** (1h)
 
 Objective: Present a series of concrete examples and testimonies of how to address these sustainability issues, and provide the audience with an opportunity to interact on those questions.
-
-Format: 3-5 participants with live Q&A using tools such as Mentimeter.
 
 Key themes:
 
 - Address how to conduct future research more sustainably.
 - Highlighting actionable initiatives to provide constructive solutions.
 - Maintaining an authentic dialogue.
+
+</details>
+
+<details class="summary-block">
+<summary>Session 5 — From proposal to flight and legacy: the lifetime of a mission</summary>
+
+Pending.
+
+</details>
+
+<details class="summary-block">
+<summary>Session 6 — Outreach and communication</summary>
+
+Pending.
+
+</details>
+
+<details class="summary-block">
+<summary>Session 7 — Update on EHC activities and how to get involved</summary>
+
+Pending.
 
 </details>
