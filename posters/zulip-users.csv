@@ -9,8 +9,8 @@ poster,author,zulip_user_id,zulip_name,match
 5,Markus Baumgartner-Steinleitner,,,none
 6,David Berghmans,663001,David Berghmans,auto
 7,Harsh Bhati,,,none
-8,Georg Bluthner,,,none
-9,Sophie Chabanski,,,none
+8,Georg Bluthner,1205955,Georg Blüthner,auto
+9,Sophie Chabanski,1206481,Sophie Chabanski,auto
 10,Christopher Chen,663425,Christopher Chen,auto
 11,Evangelia Christodoulou,,,none
 12,Evangelia Christodoulou,,,none
@@ -26,11 +26,11 @@ poster,author,zulip_user_id,zulip_name,match
 22,Harriet George,,,none
 23,Charlotte Goetz,,,none
 24,Panagiotis Gonidakis,,,none
-25,Maxime Grandin,663184,Maxime Grandin,auto
-26,Theresa Hoppe,,,none
+25,Maxime Grandin,663184,Maxime Grandin,manual
+26,Theresa Hoppe,1205726,Theresa Hoppe,auto
 27,Pelin Iochem,,,none
 28,Alexis Jeandet,663513,Alexis Jeandet,auto
-29,Mirkan Yusuf Kalkan,,,none
+29,Mirkan Yusuf Kalkan,1205493,Mirkan Yusuf Kalkan,auto
 30,Kuan-Yu Ke,,,none
 31,Florian Koller,661738,Florian Koller,auto
 32,Simon Lautenbach,1204007,Simon Lautenbach,auto
@@ -51,7 +51,7 @@ poster,author,zulip_user_id,zulip_name,match
 48,Ashley Smith,659760,Ashley Smith,auto
 49,Marco Stangalini,661750,Marco Stangalini,auto
 50,Julia Stawarz,,,none
-51,Pawel Swaczyna,,,none
+51,Pawel Swaczyna,1205264,Pawel Swaczyna,auto
 52,Myrto Tzamali,,,none
 53,Petra Vanlommel,,,none
 54,Dedong Wang,,,none
@@ -67,6 +67,6 @@ poster,author,zulip_user_id,zulip_name,match
 64,Daniil Papakonstantinou,,,none
 65,Brigitte Schmieder,,,none
 66,Konstantina Thanasoula,,,none
-67,Mate Tomasik,,,none
+67,Mate Tomasik,1205355,Máté Tomasik,auto
 68,Nicolina Chrysaphi,663590,Nicolina Chrysaphi,auto
-69,Ahmad Lalti,,,none
+69,Ahmad Lalti,1206539,Ahmad Lalti,auto
