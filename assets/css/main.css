@@ -97,6 +97,19 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .is-disabled:hover { text-decoration: line-through; }
 
+/* ---- Archive banner --------------------------------------------------------- */
+.archive-banner {
+  background: var(--space);
+  border-bottom: 1px solid var(--space-2);
+}
+.archive-banner-inner {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .4em .6em;
+  padding-block: 10px; font-size: .92rem; line-height: 1.4;
+}
+.archive-banner-inner strong { color: #fff; }
+.archive-banner-inner span { color: #c9cfe6; }
+.archive-banner-inner a { color: var(--sun-bright); text-decoration: underline; }
+
 /* ---- Demo banner ------------------------------------------------------------ */
 .demo-banner {
   background: repeating-linear-gradient(135deg, #241a00, #241a00 14px, #1a1200 14px, #1a1200 28px);

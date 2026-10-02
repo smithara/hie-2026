@@ -46,6 +46,7 @@ disableKinds = ["taxonomy", "term"]
   # Authoritative pages stay on the ESA cosmos portal — we link back to them.
   [params.links]
     esaHome = "https://www.cosmos.esa.int/web/esa-heliophysics/heliophysics-in-europe-2026"
+    ehcHome = "https://heliophysics.eu/"
     registration = "https://www.cosmos.esa.int/web/esa-heliophysics/registration"
     abstracts = "https://www.cosmos.esa.int/web/esa-heliophysics/abstract-submission"
     schedule = "https://www.cosmos.esa.int/web/esa-heliophysics/schedule-and-session-details"
