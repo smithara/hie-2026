@@ -13,6 +13,8 @@ Tuesday 22 September 2026
 Chair: Ashley Smith
 
 - **14:30** Talks by Arnaud Masson & Jorge Amaya
+  - Arnaud Masson — [Information architecture (PDF, 9.2 MB)](/summaries/session-3/masson-information-architecture.pdf)
+  - Jorge Amaya — [Space Weather and Heliophysics Modelling in Europe (PDF, 1.9 MB)](/summaries/session-3/amaya-space-weather-heliophysics-modelling.pdf)
 - **15:00** Panel discussion: Arnaud Masson, Jorge Amaya, Michaela Brchnelova, Eelco Doornbos, Matthew West
 - **16:00** Coffee break
 - **16:30** Demos: Eelco Doornbos — [Timeline Viewer](https://spaceweather.knmi.nl/viewer/) & Alexis Jeandet — [SciQlop](https://sciqlop.github.io/)
