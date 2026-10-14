@@ -216,3 +216,24 @@ posters/overrides.csv  Optional per-poster metadata corrections
 
 To edit workshop details (dates, venue, deadlines, session descriptions), see
 `hugo.toml` (`[params]`) and the `sessions:` list in `content/_index.md`.
+
+---
+
+## AI assistance
+
+Much of this site was built with AI coding assistants (Anthropic's Claude, via
+[Claude Code](https://claude.com/claude-code)), and we want to be upfront about it.
+
+- **What it did:** wrote and edited the Hugo templates, CSS, and the
+  `scripts/gen-posters.mjs`, `scripts/zulip-users.mjs` and `scripts/zulip-seed.mjs`
+  scripts. It also ran the poster-ingest workflow described in `AGENTS.md`:
+  matching raw uploads to `posters/expected.csv`, renaming and copying them, and
+  regenerating `data/posters.json`.
+- **Human oversight:** the organisers reviewed every change, checked poster
+  assignments against the ESA list, and deployed the site themselves. The AI is
+  not allowed to deploy or post to Zulip without explicit approval (see
+  `AGENTS.md`).
+- **Not AI-generated:** poster PDFs, talk slides and participant questions are
+  the authors' and participants' own work.
+- **Traceability:** AI-assisted commits carry a `Co-Authored-By: Claude …`
+  trailer — list them with `git log --grep=Co-Authored-By`.
