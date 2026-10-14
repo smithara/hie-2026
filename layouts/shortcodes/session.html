@@ -1,0 +1,13 @@
+{{- /* Session section on the Summaries page. Usage: {{% session 3 %}} … {{% /session %}}
+       The title comes from the front page's `sessions:` list so names stay in sync.
+       Called with {{% %}} so the h2 is rendered as Markdown and lands in .TableOfContents. */ -}}
+{{- $n := int (.Get 0) -}}
+{{- $s := index (where site.Home.Params.sessions "n" $n) 0 -}}
+{{- if not $s }}{{ errorf "session shortcode: no session %d in content/_index.md (%s)" $n .Position }}{{ end -}}
+<section class="summary-section">
+
+## Session {{ $n }}: {{ $s.title }} {#session-{{ $n }}}
+
+{{ .Inner }}
+
+</section>

@@ -59,6 +59,11 @@ disableKinds = ["taxonomy", "term"]
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+  # Only the Summaries page renders a TOC: its side nav lists the session h2s.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
 
 [minify]
   disableXML = true

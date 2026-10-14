@@ -3,15 +3,15 @@ title: "Home"
 sessions:
   - n: 1
     title: "ESA Heliophysics activities"
-    desc: "Mission updates — Solar Orbiter, SMILE, JUICE, Vigil, BepiColombo and Proba-3 — plus an International Living With a Star overview from NASA and JAXA."
+    desc: "ESLAB with ESA mission updates. International Living with a Star (ILWS) with updates from other agencies."
   - n: 2
     title: "Contributed Science"
-    desc: "Four science topics presented as 1–2 minute lightning talks, each followed by dedicated poster sessions."
+    desc: "Science topics with 3-minute lightning talks and posters."
   - n: 3
     title: "Data, Tools, Modelling & Simulation"
     desc: "Infrastructure and methods underpinning the science, with a focus on data independence in Europe."
   - n: 4
-    title: "A Sustainable Future for Space Research"
+    title: "How do we build a sustainable future for space research"
     desc: "Review talks and a round-table discussion on the long-term sustainability of the field."
   - n: 5
     title: "Mission Lifecycle"

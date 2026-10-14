@@ -7,8 +7,12 @@
 </section>
 
 <section>
-  <div class="wrap summaries">
-    {{ .Content }}
+  <div class="wrap summaries summaries-layout">
+    <aside class="summaries-toc" aria-label="Sessions">
+      <p class="summaries-toc-title">Sessions</p>
+      {{ .TableOfContents }}
+    </aside>
+    <div class="summaries-body">{{ .Content }}</div>
   </div>
 </section>
 {{ end }}

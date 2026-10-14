@@ -3,21 +3,41 @@ title: "Summaries"
 description: "Session summaries from ESLAB & Heliophysics in Europe"
 ---
 
-<details class="summary-block" open>
-<summary>Session 3 — Data, Tools, Modelling &amp; Simulation</summary>
+{{% session 1 %}}
+**ESLAB and ILWS Hermann Opgenoorth Memorial Session**
 
-### Schedule
+See https://www.cosmos.esa.int/web/esa-heliophysics/heliophysics-in-europe-2026
+{{% /session %}}
 
-Tuesday 22 September 2026
+{{% session 2 %}}
+This session was run as both poster session and 3-minute lightning talks from each author.
 
-Chair: Ashley Smith
+See [Posters]({{< relref "/posters" >}})
+
+Topic 1: Cross-cutting science in the heliosphere and beyond
+
+Topic 2: Putting Science into Space Weather
+
+Topic 3: Methods, missions, tools, and instrumentation
+
+Topic 4: Open topic (contributions not covered by the above)
+{{% /session %}}
+
+{{% session 3 %}}
+
+Tuesday 22 September 2026, 14:30-18:00
+
+Chair: Ashley Smith & Guram Kervalishvili
 
 - **14:30** Talks by Arnaud Masson & Jorge Amaya
-  - Arnaud Masson — [Information architecture (PDF, 9.2 MB)](/summaries/session-3/masson-information-architecture.pdf)
-  - Jorge Amaya — [Space Weather and Heliophysics Modelling in Europe (PDF, 1.9 MB)](/summaries/session-3/amaya-space-weather-heliophysics-modelling.pdf)
-- **15:00** Panel discussion: Arnaud Masson, Jorge Amaya, Michaela Brchnelova, Eelco Doornbos, Matthew West
+  - Arnaud Masson: [Information architecture (PDF, 9.2 MB)](/summaries/session-3/masson-information-architecture.pdf)
+  - Jorge Amaya: [Space Weather and Heliophysics Modelling in Europe (PDF, 1.9 MB)](/summaries/session-3/amaya-space-weather-heliophysics-modelling.pdf)
+- **15:00** Panel discussion *with questions submitted using [Particify](https://partici.fi/)*  
+  Arnaud Masson, Jorge Amaya, Michaela Brchnelova, Eelco Doornbos, Matthew West
 - **16:00** Coffee break
-- **16:30** Demos: Eelco Doornbos — [Timeline Viewer](https://spaceweather.knmi.nl/viewer/) & Alexis Jeandet — [SciQlop](https://sciqlop.github.io/)
+- **16:30** Demos:
+  - Eelco Doornbos: [Timeline Viewer](https://spaceweather.knmi.nl/viewer/)
+  - Alexis Jeandet: [SciQlop](https://sciqlop.github.io/)
 - **17:00** Group discussions
 
 <details class="summary-sub">
@@ -61,12 +81,9 @@ summarises which ideas came up across groups.
 [Full whiteboard — 7 groups, ~90 notes (PDF, 2.6 MB)](/summaries/session-3/whiteboard.pdf)
 
 </details>
+{{% /session %}}
 
-</details>
-
-<details class="summary-block">
-<summary>Session 4 — Sustainability</summary>
-
+{{% session 4 %}}
 **Objective:** Raise awareness of the environmental impact of our activities and explore ways to empower our community to make informed decisions. This session will address not only our carbon footprint, but also the broader issue of aligning the purpose of our research with the need to leave a sustainable world for future generations.
 
 💬 [Discuss on Zulip](https://euro-helio.zulipchat.com/#narrow/channel/636439-2026.3A-Session-4-Sustainability/topic//with/626034946)
@@ -87,26 +104,16 @@ Key themes:
 - Address how to conduct future research more sustainably.
 - Highlighting actionable initiatives to provide constructive solutions.
 - Maintaining an authentic dialogue.
+{{% /session %}}
 
-</details>
+{{% session 5 %}}
+TBD
+{{% /session %}}
 
-<details class="summary-block">
-<summary>Session 5 — From proposal to flight and legacy: the lifetime of a mission</summary>
+{{% session 6 %}}
+TBD
+{{% /session %}}
 
-Pending.
-
-</details>
-
-<details class="summary-block">
-<summary>Session 6 — Outreach and communication</summary>
-
-Pending.
-
-</details>
-
-<details class="summary-block">
-<summary>Session 7 — Update on EHC activities and how to get involved</summary>
-
-Pending.
-
-</details>
+{{% session 7 %}}
+TBD
+{{% /session %}}

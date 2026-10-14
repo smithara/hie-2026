@@ -44,8 +44,11 @@
 <section class="sessions">
   <div class="wrap">
     <div class="section-head">
-      <h2>Programme sessions</h2>
-      <a class="section-link" href="{{ $links.schedule }}" target="_blank" rel="noopener">Full schedule on ESA ↗</a>
+      <div class="section-title">
+        <h2>Programme sessions</h2>
+        <a class="btn btn-primary" href="{{ "summaries/" | relURL }}">Open the summaries</a>
+      </div>
+      <a class="section-link" href="{{ $links.esaHome }}" target="_blank" rel="noopener">Full schedule on ESA ↗</a>
     </div>
     <ol class="session-list">
       {{ range .Params.sessions }}
