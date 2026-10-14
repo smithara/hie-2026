@@ -324,6 +324,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .q-votes { color: var(--ink-soft); background: rgba(120, 130, 150, .14); }
 .q-done { color: #1f7a45; background: rgba(46, 160, 90, .14); }
+.q-note { display: block; margin-top: .3em; font-size: .9rem; color: var(--ink-soft); }
 @media (prefers-color-scheme: dark) { .q-done { color: #6fd19a; } }
 .summary-preview { display: block; max-width: 900px; margin: 8px 0 6px; }
 .summary-preview img { border: 1px solid var(--border); border-radius: var(--radius-sm); }

@@ -43,15 +43,21 @@ Chair: Ashley Smith & Guram Kervalishvili
 <details class="summary-sub">
 <summary>Questions (17)</summary>
 
-Questions for the panel, submitted by participants via Particify and sorted by votes.
+Questions for the panel, submitted by participants via Particify and sorted by votes. Questions discussed in the session carry a short note from the panel.
 Download all questions as CSV: [panel-questions.csv](/summaries/session-3/panel-questions.csv) (3 KB).
 
 1. Looking ten years out, where is the biggest gap in European modelling? eg. physics, coupling, validation, facilities, or sustained funding to maintain what exists? <span class="q-votes">▲ 10 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Panel saw forecasting as the biggest scientific gap: flares, coronal holes and coupling physics across timescales, all needing new observations. Funding was named as the overarching challenge; the community should actively make the case to ESA/EU delegates, e.g. through white papers on required funding.</span>
 1. Should we have standardised performance metrics for space weather models, and if so, who and what should they determined by? <span class="q-votes">▲ 8 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Metrics need an agreed baseline to compare against; defining criteria is most achievable for impacts on satellite operations. Users already rely on indices and scales (e.g. NOAA G/R scales), but how well these capture the hazard to end users is open; suggestion to review existing scales and adapt them for Europe.</span>
 1. How do we ensure that good datasets/software that are freely available are used by the community, not just lost in the open research section of a paper? <span class="q-votes">▲ 8 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Version and archive software publicly (e.g. at the end of a PhD/postdoc) so it can be reused and results reproduced; journals are starting to address software updates. Panel favoured community-built tools (e.g. the Python in Heliophysics Community) over single-person projects, which need sustained funding and people to maintain them. ESA needs a better long-term plan for development activities, and could look to the Earth Observation community for how to do this.</span>
 1. Concerning the topic of getting Science and Software engineers together: You mentioned using Software engineers from companies instead of within academia. How would you propose the workflow to be, both concerning finding funding to hire those engineers within projects and then communication between scientists writing code and the engineers refining it? <span class="q-votes">▲ 6 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Models discussed: science centres pairing scientists and engineers (e.g. IRAP Toulouse), involving companies to mature tools from TRL 4 to 7, NOAA's embedded software-engineering teams, and UK research software engineers teaching best practice. Funding routes include proposals and Horizon Europe, but scientists need to reach out; recruiting computing talent against industry salaries is hard.</span>
 1. What fundamentally changes for heliophysics with the Vigil mission, and how should the community adapt to fully exploit this new perspective? <span class="q-votes">▲ 6 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Vigil is designed as a low-risk operational mission to raise forecast capability, with L5 giving advance view of regions before they reach the L1 line. Its data will be openly available, and the community is encouraged to use it and feed back; data-sharing agreements are in place with partner agencies and ground-based providers. Improved inputs could enable probabilistic forecasts, e.g. of the thermosphere for satellite collision avoidance.</span>
 1. What should data providers and curators do to make their data easier to find and use, and what can the rest of us as a community do to support them? <span class="q-votes">▲ 6 votes</span> <span class="q-done">✓ discussed</span>
+   <span class="q-note">Providers should clearly advertise what their data and tools can do; usage tracking (publications, software) helps managers justify support. Contact points for data access are often missing or out of date, and a single access point would help; ESA's Space Weather Service Network is working to improve this.</span>
 1. Who should be writing and maintaining the software our science depends on, and how do we fund and reward them? <span class="q-votes">▲ 6 votes</span>
 1. How does ESA envision the research to operations pipeline and how do you support researchers throughout it <span class="q-votes">▲ 4 votes</span>
 1. What would it take for European space weather services to keep running if a key external data stream or model went dark? <span class="q-votes">▲ 4 votes</span>
@@ -81,6 +87,13 @@ summarises which ideas came up across groups.
 [Full whiteboard — 7 groups, ~90 notes (PDF, 2.6 MB)](/summaries/session-3/whiteboard.pdf)
 
 </details>
+
+
+**Action points for the community:**
+
+1. **Document what you release.** As part of publishing a model, dataset or tool: units, validity limits, uncertainty, quality flags, processing history, version number, public archive, persistent contact point, ...
+1. **Make European data and tools findable and usable.** Converge on common formats and readers (FITS, CDF, SunPy/PyHC) with quicklooks, and register resources in shared queryable entry points (eg ESA's Space Weather Service Network). Advertise capabilities through workshops, EGU and tutorials. Build on community tools rather than one-person projects.
+1. **Make the case for sustained funding and credit.** Push for software maintenance and research software engineers to be fundable lines in ESA/EU proposals. Cite software and data in papers so usage can be tracked. Put the case to ESA/EU delegates directly, e.g. through community white papers on required funding.
 {{% /session %}}
 
 {{% session 4 %}}
