@@ -43,6 +43,16 @@ disableKinds = ["taxonomy", "term"]
     # Invite link for joining the Zulip org; shown as "Register here" on the Posters page.
     invite = "https://euro-helio.zulipchat.com/join/hmlndvfd4bi4uzpbskzrxeiv/"
 
+  # Licensing (see LICENSE and LICENSE-CONTENT.md). Content = posters, slides,
+  # summaries and site text; code = everything else. `contact` is where authors
+  # ask for corrections, a different license, or takedown.
+  [params.license]
+    content = "CC BY 4.0"
+    contentURL = "https://creativecommons.org/licenses/by/4.0/"
+    code = "MIT"
+    repo = "https://github.com/smithara/hie-2026"
+    contact = "https://github.com/smithara/hie-2026/issues"
+
   # Authoritative pages stay on the ESA cosmos portal — we link back to them.
   [params.links]
     esaHome = "https://www.cosmos.esa.int/web/esa-heliophysics/heliophysics-in-europe-2026"

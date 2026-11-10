@@ -257,8 +257,13 @@ img { max-width: 100%; height: auto; display: block; }
 .poster-title { font-weight: 700; font-size: .98rem; line-height: 1.3; }
 .poster-authors { font-size: .86rem; color: var(--ink-soft); }
 
-/* Card footer: link to the poster's Zulip discussion topic. */
-.poster-actions { border-top: 1px solid var(--border); padding: 8px 14px; }
+/* Card footer: link to the poster's Zulip discussion topic + license note. */
+.poster-actions {
+  border-top: 1px solid var(--border); padding: 8px 14px;
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px;
+}
+.poster-license { font-size: .8rem; color: var(--ink-soft); }
+.poster-license a { color: inherit; }
 .poster-discuss {
   font-size: .86rem; font-weight: 600; text-decoration: none; color: var(--accent-link);
 }

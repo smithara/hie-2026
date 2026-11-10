@@ -20,6 +20,12 @@
       <p class="footer-ai">Site built and maintained with help from AI coding assistants
       (Anthropic's Claude), under human review. Poster and talk content is the
       authors' own.</p>
+      {{- with .Site.Params.license }}
+      <p class="footer-license">Posters and slides © their authors; site text © EHC.
+      Content shared under <a href="{{ .contentURL }}" target="_blank" rel="noopener license">{{ .content }}</a>
+      unless the file says otherwise · Site code <a href="{{ .repo }}/blob/main/LICENSE" target="_blank" rel="noopener">{{ .code }}</a>
+      {{- with .contact }} · Authors: <a href="{{ . }}" target="_blank" rel="noopener">corrections or takedown</a>{{ end }}.</p>
+      {{- end }}
     </div>
   </div>
 </footer>

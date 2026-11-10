@@ -4,6 +4,7 @@
 {{- $zulip := .Site.Params.zulip -}}
 {{- $zulipChannel := "" -}}
 {{- $zulipBase := "" -}}
+{{- $license := .Site.Params.license -}}
 {{- if and $zulip $zulip.org $zulip.channelId -}}
   {{- $zulipChannel = printf "%s/#narrow/channel/%s-%s" (strings.TrimSuffix "/" $zulip.org) $zulip.channelId (urlize $zulip.channel) -}}
   {{- $zulipBase = printf "%s/topic/" $zulipChannel -}}
@@ -68,10 +69,16 @@
               {{ with .authors }}<span class="poster-authors">{{ . }}</span>{{ end }}
             </span>
           </a>
-          {{ if and $zulipBase .zulipTopicHash }}
+          {{- $hasZulip := and $zulipBase .zulipTopicHash -}}
+          {{ if or $hasZulip $license }}
           <div class="poster-actions">
+            {{ if $hasZulip }}
             <a class="poster-discuss" href="{{ $zulipBase }}{{ .zulipTopicHash | safeURL }}" target="_blank" rel="noopener"
                title="Zulip topic: {{ .zulipTopic }}">💬 Discuss on Zulip</a>
+            {{ end }}
+            {{ with $license }}
+            <span class="poster-license">© the authors · <a href="{{ .contentURL }}" target="_blank" rel="noopener license">{{ .content }}</a></span>
+            {{ end }}
           </div>
           {{ end }}
         </li>

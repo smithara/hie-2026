@@ -2,6 +2,7 @@
   "name": "heliophysics-europe-2026",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Workshop website for ESLAB & Heliophysics in Europe #3 (ESA/ESTEC, 21-24 Sep 2026)",
   "type": "module",
   "scripts": {

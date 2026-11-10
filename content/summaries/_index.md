@@ -29,7 +29,7 @@ Tuesday 22 September 2026, 14:30-18:00
 
 Chair: Ashley Smith & Guram Kervalishvili
 
-- **14:30** Talks by Arnaud Masson & Jorge Amaya
+- **14:30** Talks by Arnaud Masson & Jorge Amaya (slides © the speaker, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless stated)
   - Arnaud Masson: [Information architecture (PDF, 9.2 MB)](/summaries/session-3/masson-information-architecture.pdf)
   - Jorge Amaya: [Space Weather and Heliophysics Modelling in Europe (PDF, 1.9 MB)](/summaries/session-3/amaya-space-weather-heliophysics-modelling.pdf)
 - **15:00** Panel discussion with questions submitted using [Particify](https://partici.fi/)  
@@ -94,6 +94,8 @@ summarises which ideas came up across groups.
 1. **Document what you release.** As part of publishing a model, dataset or tool: units, validity limits, uncertainty, quality flags, processing history, version number, public archive, persistent contact point, ...
 1. **Make European data and tools findable and usable.** Converge on common formats and readers (FITS, CDF, SunPy/PyHC) with quicklooks, and register resources in shared queryable entry points (eg ESA's Space Weather Service Network). Advertise capabilities through workshops, EGU and tutorials. Build on community tools rather than one-person projects.
 1. **Make the case for sustained funding and credit.** Push for software maintenance and research software engineers to be fundable lines in ESA/EU proposals. Cite software and data in papers so usage can be tracked. Put the case to ESA/EU delegates directly, e.g. through community white papers on required funding.
+
+<small class="summary-license">Session summary, panel questions, whiteboard and synthesis © EHC / workshop organisers, shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 {{% /session %}}
 
 {{% session 4 %}}

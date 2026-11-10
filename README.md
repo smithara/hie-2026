@@ -212,10 +212,27 @@ static/posters/pdf/    ← put poster PDFs here
 static/posters/thumbs/ ← generated thumbnails
 posters/expected.csv   Authoritative ESA poster list (also tracks missing posters)
 posters/overrides.csv  Optional per-poster metadata corrections
+LICENSE                MIT license (code)
+LICENSE-CONTENT.md     CC BY 4.0 notice (posters, slides, summaries, site text)
 ```
 
 To edit workshop details (dates, venue, deadlines, session descriptions), see
 `hugo.toml` (`[params]`) and the `sessions:` list in `content/_index.md`.
+
+---
+
+## License
+
+- **Code** (templates, CSS/JS, scripts, config, `data/`, `posters/*.csv`):
+  [MIT](LICENSE), © 2026 European Heliophysics Community (EHC).
+- **Content** (`static/posters/`, `static/summaries/`, `content/`):
+  [CC BY 4.0](LICENSE-CONTENT.md) unless the file says otherwise. Posters and
+  slides are © their authors; summaries and site text are © EHC / the workshop
+  organisers. See `LICENSE-CONTENT.md` for how to credit them.
+
+Authors who want a correction, a different license or their file removed can
+[open an issue](https://github.com/smithara/hie-2026/issues). The license
+details shown on the site come from `[params.license]` in `hugo.toml`.
 
 ---
 
