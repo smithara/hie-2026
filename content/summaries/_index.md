@@ -130,5 +130,67 @@ TBD
 {{% /session %}}
 
 {{% session 7 %}}
-TBD
+Slides: [European Heliophysics Community (PDF, 1.9 MB)](/summaries/session-7/ehc-session-7.pdf)
+
+*AI-generated summary of the session's discussion notes.*
+
+### Session Report: Meeting Format, Career Support and Community Advocacy
+
+#### Summary
+
+The session collected feedback on the meeting format and on how the community supports early-career researchers (ECRs). Participants valued the small-scale format and the career and skills sessions, and asked for stronger links to industry and ESA, more varied formats, and a clearer, more flexible submission process. The discussion then turned to job insecurity, the lack of mid-career funding, and the need for outreach and advocacy, which led to proposals for an outreach platform, an advocacy working group and a possible soft-money institute.
+
+#### What worked well
+
+- **Small scale:** the smaller meeting format was valued by participants.
+- **Career and skills sessions:** these were seen as a strength and worth keeping.
+
+#### What was missing, suggestions
+
+- **Industry:** more connections to industry, and more non-ESA perspectives.
+- **ESA:** guidance on how to talk to ESA. Participants want some meetings to remain at ESA, since the connection to ESA is important.
+- **Keynotes:** keynote talks by mid-career researchers.
+- **Talk format:** questions after the 3-minute talks.
+- **Hands-on sessions:** more practical, interactive formats.
+- **Posters:** more poster time, including later in the week.
+
+#### Recommendations for future meetings
+
+- Make the submission process clearer and allow work in progress (WIP) to be submitted.
+- Add an online-focus session so online participants are properly included.
+- Take up the session suggestions that Georg holds.
+- Hold the meeting once per year, alternating between online and in-person.
+- Avoid September, which is a difficult month for many people.
+- Keep sustainable travel in mind when choosing format and location.
+- Make sure visas are available to participants.
+- Invite people who have moved into industry.
+- Invite national contacts.
+
+#### Non-permanency
+
+There is not enough funding to secure permanent positions. Participants also called for more awareness of, and advocacy to, stakeholders about the impact of non-permanency on people’s lives and the practical issues it creates.
+
+#### Data, funding and scope
+
+- **Statistics:** better statistics and numbers on ECRs are needed to support the case.
+- **Funding:** more funding is needed, especially at the mid-career stage.
+- **EHC scope:** make sure the EHC scope draws in more planetary and heliosphere researchers.
+
+#### Outreach and advocacy
+
+- **Outreach platform:** a shared platform with outreach ideas, 3D-print templates and similar resources, plus more heliosphere graphics, possibly provided by ESA.
+- **Advocacy working group:** a group to translate the science for politicians and other stakeholders.
+- **Soft-money institute:** an idea raised for discussion, possibly tied into an ESA programme.
+
+#### Proposed actions and open questions
+
+- Collect the session suggestions from Georg.
+- Draft a clearer submission process that includes WIP.
+- Plan an alternating online and in-person yearly cycle, avoiding September.
+- Gather statistics and numbers on ECRs.
+- Set up the advocacy working group.
+- Start the outreach platform and ask ESA about heliosphere graphics.
+- Open questions: owners and deadlines for each action are not yet assigned. It is also unclear whether the soft-money institute could realistically be tied into an ESA programme.
+
+<small class="summary-license">Session slides and summary © EHC / workshop organisers, shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 {{% /session %}}
